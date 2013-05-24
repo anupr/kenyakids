@@ -1,0 +1,13 @@
+Untranslated Strings for {{ lang_code.0 }}
+------------------------------------------
+{% load model_val %}
+The number of untranslated strings for are {{ untrans_strings|length }}.
+
+{% if untrans_strings|length %}
+The strings are:
+
+{% for untrans_str in untrans_strings %}
+  {{ forloop.counter }}. {{ untrans_str.0|capfirst }} : {% get_model_name untrans_str.1 %} : {% get_model_field_val untrans_str.1 untrans_str.0 %}
+{% endfor %}
+
+{% endif %}

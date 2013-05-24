@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block head %}
+<script type="text/javascript" src="/web/admin/jsi18n/"></script>
+<script type="text/javascript" src="/media/js/core.js"></script>
+<script type="text/javascript" src="/media/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/media/js/calendar.js"></script>
+<script type="text/javascript" src="/media/js/admin/DateTimeShortcuts.js"></script>
+{% endblock %}
+{% block centercontent %}
+{% if f %}
+<h1>{% trans "Add Voucher:" %}</h1>
+	<form method="POST" action="./">{% csrf_token %}
+    		{{ f }}
+		<p><input type="submit" value="Add Voucher" name="addvoucher"/></p>
+	</form>
+{% endif %}
+{% endblock %}

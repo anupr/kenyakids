@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block centercontent %}
+
+{% if area_list.count %}
+    <h1>{% trans "Areas:" %}</h1>
+    {% for area in area_list %}
+    <a href="/areafull/{{ area.id }}/"><h4>{{area.project}} {{ area }}</h4></a>
+
+    {% endfor %}
+{% else %}
+    <p>{% trans "No areas entered." %}</p>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+{% if form %}
+<h1>{% trans "Add Translation" %}</h1>
+	<form method="POST" action="./">{% csrf_token %}
+	<table>
+    {{ form }}
+    </table>
+    <input type="submit" name="Save" value="{% trans "Save" %}"></p>
+	</form>
+{% endif %}
+{% endblock %}

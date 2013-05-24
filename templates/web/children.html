@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block centercontent %}
+
+{% if child_list.count %}
+    <h1>{% trans "Children:" %}</h1>
+    {% for child in child_list %}
+
+    <h4>{{ child.area }}: {{ child.name }}: {{ child.code }}</h4><a href="/childfull/{{ child.id }}/">
+	    {% trans "Details" %}</a> <a href="/annualreport/{{ child.id }}/">
+	    {% trans "Annual Report" %}</a>
+
+    {% endfor %}
+{% else %}
+    <p>{% trans "No children entered." %}</p>
+{% endif %}
+
+{% endblock %}

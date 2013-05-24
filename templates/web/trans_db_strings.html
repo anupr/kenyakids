@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load model_val %}
+
+{% block centercontent %}
+<h1>{% trans "Untranslated string summary" %}</h1>
+<table class="sortable" width="100%" border="1">
+<thead>
+<tr>
+  <th>Field</th>
+  <th>Model</th>
+  <th>Value</th>
+  <th>Action</th>
+</tr>
+</thead>
+{% for field,model in untrans_summary %}
+<tr>
+  <td>{% blocktrans with field|title as field %}{{ field }}{% endblocktrans %}</td>
+  <td>{% get_model_name model %}</td>
+  <td>{% get_model_field_val model field %}</td>
+  <td><a href="{{ model.admin_change_url }}">{% trans "Translate" %}</a></td>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}
+
+{% block extra_js %}
+<script type="text/javascript" src="/sitemedia/js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+  $("table.sortable").tablesorter();
+  });
+</script>
+{% endblock %}

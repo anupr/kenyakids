@@ -1,0 +1,7 @@
+reportlab
+django
+django-rosetta
+sorl-thumbnail
+django-transmeta
+south
+PIL

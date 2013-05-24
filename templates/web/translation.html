@@ -1,0 +1,181 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+<h2>{% trans "Translation"%}</h2>
+{% if nolanguage %}
+No Languages for selection
+{% else %}
+{% ifequal lng "en" %}
+ <h3>Translation not needed for English</h3>
+ {% else %}
+<table width="100%" border="1" >
+    <tr bgcolor="lightblue"><td colspan="3" align="center">Hobby</td></tr>
+	<tr bgcolor="lightblue">
+	<td width="30%">{% trans "English Term" %}</td>	
+	<td width="30%">{% trans "Translation" %}</td>
+	<td width="20%">Option</td>
+	</tr>
+	{% if not ht and not hobbytobetrans%}
+	<tr><td colspan="3" align="center">{% trans "No Items Found" %}</td></tr>
+    {% endif %}
+	{% if ht %}
+	{% for entry in ht %}
+	<tr>
+	<td>{{entry.english}}</td>
+	<td>{{entry.trans}}</td>
+	<td><a href="/edittranslation/{{entry.id}}/">Edit</a></td>	
+	</tr>
+	{% endfor %}	
+	{% endif %}
+	{% if tobetrans %}
+{% if hobbytobetrans %}
+{% for item in hobbytobetrans %}      
+      <tr>
+	<td>{{item.name}}</td>
+	<td>-----</td>
+	<td><a href="/addtranslation/hobby/{{item.id}}/">Translate</a></td>	
+	</tr>
+{% endfor %}
+{% endif %}
+{% endif %}
+</table>
+
+<br>
+
+<table width="100%" border="1">
+    <tr bgcolor="lightblue"><td colspan="3" align="center">Character</td></tr>
+	<tr bgcolor="lightblue">
+	<td width="30%">{% trans "English Term" %}</td>	
+	<td width="30%">{% trans "Translation" %}</td>
+	<td width="20%">Option</td>
+	</tr>
+	{% if not ct and not charactertobetrans%}
+	<tr><td colspan="3" align="center">{% trans "No Items Found" %}</td></tr>
+    {% endif %}
+	{% if ct %}
+	{% for entry in ct %}
+	<tr>
+	<td>{{entry.english}}</td>
+	<td>{{entry.trans}}</td>
+	<td><a href="/edittranslation/{{entry.id}}/">Edit</a></td>	
+	</tr>
+	{% endfor %}	
+	{% endif %}
+	{% if tobetrans %}
+	{% if charactertobetrans %}
+{% for item in charactertobetrans %}
+     <tr>
+	<td>{{item.name}}</td>
+	<td>-----</td>
+	<td><a href="/addtranslation/character/{{item.id}}/">Translate</a></td>	
+	</tr>
+{% endfor %}
+{% endif %}
+{% endif %}
+</table>
+<br>
+
+<table width="100%" border="1">
+    <tr bgcolor="lightblue"><td colspan="3" align="center">Job</td></tr>
+	<tr bgcolor="lightblue">
+	<td width="30%">{% trans "English Term" %}</td>	
+	<td width="30%">{% trans "Translation" %}</td>
+	<td width="20%">Option</td>
+	</tr>
+	{% if not jt and not jobtobetrans%}
+	<tr><td colspan="3" align="center">{% trans "No Items Found" %}</td></tr>
+    {% endif %}
+	
+	{% if jt %}
+	{% for entry in jt %}
+	<tr>
+	<td>{{entry.english}}</td>
+	<td>{{entry.trans}}</td>
+	<td><a href="/edittranslation/{{entry.id}}/">Edit</a></td>	
+	</tr>
+	{% endfor %}	
+	{% endif %}
+	{% if tobetrans %}
+	{% if jobtobetrans %}
+{% for item in jobtobetrans %}
+     <tr>
+	<td>{{item.name}}</td>
+	<td>-----</td>
+	<td><a href="/addtranslation/job/{{item.id}}/">Translate</a></td>	
+	</tr>
+{% endfor %}
+{% endif %}
+{% endif %}
+</table>
+<br>
+
+<table width="100%" border="1">
+    <tr bgcolor="lightblue"><td colspan="3" align="center">Longtermdiagnosis</td></tr>
+	<tr bgcolor="lightblue">
+	<td width="30%">{% trans "English Term" %}</td>	
+	<td width="30%">{% trans "Translation" %}</td>
+	<td width="20%">Option</td>
+	</tr>
+	{% if not ldt and not longtermdiagtobetrans%}
+	<tr><td colspan="3" align="center">{% trans "No Items Found" %}</td></tr>
+    {% endif %}
+	{% if ldt %}
+	{% for entry in ldt %}
+	<tr>
+	<td>{{entry.english}}</td>
+	<td>{{entry.trans}}</td>
+	<td><a href="/edittranslation/{{entry.id}}/">Edit</a></td>	
+	</tr>
+	{% endfor %}	
+{% endif %}
+	{% if tobetrans %}
+	{% if longtermdiagtobetrans %}
+{% for item in longtermdiagtobetrans %}
+     <tr>
+	<td>{{item.name}}</td>
+	<td>-----</td>
+	<td><a href="/addtranslation/longtermdiagnosis/{{item.id}}/">Translate</a></td>	
+	</tr>
+{% endfor %}
+{% endif %}
+{% endif %}
+</table>
+<br>
+
+<table width="100%" border="1">
+    <tr bgcolor="lightblue"><td colspan="3" align="center">MedicalRemarks</td></tr>
+	<tr bgcolor="lightblue">
+	<td width="30%">{% trans "English Term" %}</td>	
+	<td width="30%">{% trans "Translation" %}</td>
+	<td width="20%">Option</td>
+	</tr>
+	{% if not mrt and not medicalremarktobetrans%}
+	<tr><td colspan="3" align="center">{% trans "No Items Found" %}</td></tr>
+    {% endif %}
+	
+	{% if mrt %}
+	{% for entry in mrt %}
+	<tr>
+	<td>{{entry.english}}</td>
+	<td>{{entry.trans}}</td>
+	<td><a href="/edittranslation/{{entry.id}}/">Edit</a></td>	
+	</tr>
+	{% endfor %}
+	{% endif %}
+	{% if tobetrans %}
+	{% if medicalremarktobetrans %}
+{% for item in medicalremarktobetrans %}
+     <tr>
+	<td>{{item.name}}</td>
+	<td>-----</td>
+	<td><a href="/addtranslation/medicalremarks/{{item.id}}/">Translate</a></td>	
+	</tr>
+{% endfor %}
+{% endif %}
+{% endif %}
+</table>
+<br>
+{% endifequal %}
+{% endif %}
+{% endblock %}
+

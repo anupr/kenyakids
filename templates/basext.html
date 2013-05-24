@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"DTD/xhtml1-transitional.dtd">
+<html><head>
+<LINK REL="stylesheet" type='text/css' href='/sitemedia/css/layout.css' title='default'>
+{% load i18n %}
+{% load base_utils %}
+<title>{% trans "NRC-FOSS Helpline" %}</title>
+<script type="text/javascript" src="../../../jsi18n/"></script>
+<script type="text/javascript" src="/media/js/core.js"></script>
+<script type="text/javascript" src="/media/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/media/js/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript" src="/media/js/tiny_mce/textareassmall.js"></script>
+</head>
+<body>
+
+<div id="centertop">
+	<img src="/sitemedia/pics/masthead.jpg" height="120" />
+	</div>
+
+<div id="centerright">
+{% if user.is_anonymous %}
+<a href="/web/login/">{% trans "login" %}</a>
+{% else %}
+<a href="/web/edituser/{{ user.id }}/">{{ user.username }}</a>
+<br/>
+<a href="/web/logout/">{% trans "logout"}</a>
+{% endif %}
+	</div>
+
+<div id="leftcontent">
+	<div id="button">  
+		<ul>
+		{% block navsite %}
+		{% get_menu %}
+		{% for p in mn %}
+			<li >
+			<a href = "/web/{{ p.url }}" {{ p.id }}> {{ p.name }}
+			</a>
+			</li>
+		{% endfor %}
+		<li><a href="http://nrcfosshelpline.in/code/" >{% trans
+"Code" }%</a></li>
+		{% endblock %}
+		</ul>
+    </div>
+</div>
+
+
+
+
+<div id="centercontentext">
+{% block centercontent %} {% endblock %}
+</div>
+
+
+
+
+<div id="footer">
+<p>Built by <a href="mailto:webmaster@nrcfosshelpline.in">{% trans "NRC-FOSS" %}</a>, 
+{% trans "powered by Linux, Apache, Python, Postgresql and Django copyright 2006" %}  
+ <a href="mailto:webmaster@nrcfosshelpline.in">{% trans "NRC-FOSS" %}</a></p>
+ </div>
+</div>
+</body>
+</html>

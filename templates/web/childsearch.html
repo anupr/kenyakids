@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block centercontent %}
+{% if nochildren %}
+<h3>No Children for selection</h3>
+{% endif %}
+{% if search_form %}
+<h1>{% trans "Details and Printing" %}</h1>
+<h2>{% trans "Project" %} {{project }}</h2>
+<form method="POST" action=".">{% csrf_token %}
+  <p>{{ search_form.start_code.label}}	 {{ search_form.start_code }}  {{ search_form.end_code.label}} {{ search_form.end_code }}</p>
+  <p>{{ search_form.is_passive.label }}	 {{ search_form.is_passive }}</p>
+  <p>
+    <input type="submit" value="{% trans "Search" %}" name="search" />
+  </p>
+  <p><a href="#" onclick="unselCB();">{% trans "Unselect All" %}</a> | <a href="#" onclick="selCB();">{% trans "Select All" %}</a></p>
+  <ul>
+  {% for child in search_form.children.field.choices %}
+    <li>
+      <input type="checkbox" checked="true" value="{{ child.0 }}" name="children" />
+      <a href="{% url childfull child_id=child.0 %}">{{ child.1 }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  <p> 
+    <input type="submit" value="{% trans "Child Report" %}"  name="child_report" />
+    <input type="submit" value="{% trans "Annual Report" %}" name="annual_report" />
+    <input type="submit" value="{% trans "Child Story" %}"   name="child_story" />
+  </p>
+</form>
+{% endif %}
+<script type="text/javascript">
+  function unselCB() {
+    $("ul>li>input[type=checkbox]").attr("checked", false);
+  }
+  function selCB() {
+    $("ul>li>input[type=checkbox]").attr("checked", true);
+  }
+</script>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% load i18n %}
+<table align="center">
+<tr>
+<Th>
+{% if ind.first %}
+<a href="/web{{ pth }}{{ ind.first }}/{{ size }}/">
+{% trans "First" %}
+</a>
+{% endif %}
+</Th>
+
+<Th>
+{% if ind.previous %}
+<a href="/web{{ pth }}{{ ind.previous }}/{{ size }}/">
+{% trans "Previous" %}
+</a>
+{% endif %}
+</Th>
+
+<Th>
+{% if ind.next %}
+<a href="/web{{ pth }}{{ ind.next }}/{{ size }}/">
+{% trans "Next" %}
+</a>
+{% endif %}
+</Th>
+
+<Th>
+{% if ind.last %}
+<a href="/web{{ pth }}{{ ind.last }}/{{ size }}/">
+{% trans "Last" %}
+</a>
+{% endif %}
+</Th>
+</tr>
+</table>

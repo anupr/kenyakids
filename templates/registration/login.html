@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+{% ifequal language 'fi' %}
+<div id = "logintxt">
+{% else %}
+<div id = "logintxte">
+{% endifequal %}
+<div id = "logintxt2">
+{% if form.errors %}
+<h2>{% trans "Your Username and Password didnt match - try again" %}</h2>
+{% endif %}
+
+<form method="POST" action=".">{% csrf_token %}
+
+<label for="id_username">{% trans "User Name:" %}</label>
+{{ form.username }}<br><br>
+
+<label for="id_password">{% trans "Password:&nbsp;&nbsp;" %}</label>
+{{ form.password }}<br><br><br>
+{% ifequal language 'fi' %}
+<input type="image"  src="/sitemedia/pics/kirjaudu.jpg" value="Login">
+{% else %}
+<input type="image"  src="/sitemedia/pics/login.jpg" value="Login">
+{% endifequal %}
+<input type="hidden" name="next" value="{% url "home" %}"/>
+</form>
+</div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script type="text/javascript">
+  document.getElementById("id_username").focus();
+</script>
+{% endblock %}

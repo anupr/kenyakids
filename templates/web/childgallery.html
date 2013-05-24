@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load thumbnail %}
+
+{% block centercontent %}
+
+{% if child_list.count %}
+    <h1>{% trans "Children:" %}</h1>
+    {% for child in child_list %}
+
+<p>
+  <a href="{{ child.get_picture_url }}">{% thumbnail child.picture "100x100" as child_thumbnail %}
+    <img src = "{{ child_thumbnail.url }}" width="75" border="0" />{% endthumbnail %}
+  </a>
+</p>
+<p>
+{{ child.code }} - {{ child.name }}
+</p>
+    {% endfor %}
+{% else %}
+    <p>{% trans "No children entered." %}</p>
+{% endif %}
+
+{% endblock %}

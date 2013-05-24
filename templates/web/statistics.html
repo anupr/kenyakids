@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block centercontent %}
+
+<h1>{% trans "Statistics for: " %} {{project}}</h1>
+<table width = "auto" cellpadding="5" cellspacing="0" border="1" align="center">
+<tr>
+<th align="left">{% trans "Head" %}</th>
+<th align="right">{% trans "Number" %}</th>  
+</tr>
+{% if num_sponsors %}
+<tr>
+  <td align="left">{% trans "Sponsors" %} </td>
+  <td align="right">{{ num_sponsors }}</td>
+</tr>
+{% endif %}
+
+{% if num_sponsorships %}
+<tr>
+  <td align="left">{% trans "Sponsorships" %}</td>
+  <td align="right">{{ num_sponsorships }}</td>
+</tr>
+{% endif %}
+
+{% if num_project_sponsors %}
+<tr>
+  <td align="left">{% trans "Project sponsors" %} </td>
+  <td align="right">{{ num_project_sponsors }}</td>
+</tr>
+{% endif %}
+
+{% if num_children %}
+<tr>
+  <td align="left">{% trans "Children" %} </td>
+  <td align="right">{{ num_children }}</td>
+</tr>
+{% endif %}
+
+{% if num_girls %}
+<tr>
+  <td align="left">{% trans "Girls" %} </td>
+  <td align="right">{{ num_girls }}</td>
+</tr>
+{% endif %}
+
+{% if num_boys %}
+<tr>
+  <td align="left">{% trans "Boys" %} </td>
+  <td align="right">{{ num_boys }}</td>
+</tr>
+{% endif %}
+
+{% if num_free_children %}
+<tr>
+  <td align="left">{% trans "Free children" %}</td>
+  <td align="right"> {{ num_free_children }}</td>
+</tr>
+{% endif %}
+
+{% if children_by_area.count %}
+{% for stat in children_by_area %}
+<tr>
+  <td align="left">{% blocktrans with stat.area__name as area_name %}Children in {{ area_name }}{% endblocktrans %}</td>
+  <td align="right"> {{ stat.num_per_area }}</td>
+</tr>
+{% endfor %}
+{% endif %}
+</table>
+
+<p><a href="/printstats/">{% trans "Print sponsor and child statistics" %}</a></p>
+{% endblock %}

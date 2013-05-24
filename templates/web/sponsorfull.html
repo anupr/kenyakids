@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+{% load base_utils %}
+
+
+<a class ="back" href="{% url sponsorsearch projectid=projectid %}">{% trans "Back to index ..." %}</a>
+
+{% if sponsor %}
+    <h2>{% trans "Name: "%} {{ sponsor.fname }} {{sponsor.lname}}</h2>
+	<p>{% trans "Code" %} {{ sponsor.code }}</p>
+	<p>{% trans "Street Address" %}: {{ sponsor.street }}</p>
+	<p>{% trans "City" %}: {{ sponsor.city }}</p>
+	<p>{% trans "Postal Code" %}: {{ sponsor.postal }}</p>
+	<p>{% trans "Country" %}: {{ sponsor.country }}</p>
+	<p>{% trans "Phone numbers" %}: {{ sponsor.phone }}</p>
+	<p>{% trans "Email Address" %}: {{ sponsor.email }}</p>
+	<p>{% trans "Remarks" %}: {{ sponsor.remarks }}</p>
+	{% if sponsorship.count %}
+	<h3>{% trans "Sponsorships" %}:</h3>
+	<ul>
+	{% for chld in sponsorship %}
+	<LI>{{ chld.child.code }}: {{chld.child.name}} 
+		{% trans "From" %} {{chld.startdate|date:"d-m-Y"}}
+		{% if chld.enddatedate %}
+		{% trans "To" %} {{chld.enddatedate|date:"d-m-Y"}}
+		{% endif %}
+	</LI>
+	{% endfor %}
+	</ul>
+	{% else %}
+	<p>{% trans "Has not sponsored any children" %}</p>
+	{% endif %}
+{% else %}
+    <p>{% trans "Item Not Found" %}</p>
+{% endif %}
+
+<a class ="back" href="{% url sponsorsearch projectid=projectid %}">{% trans "Back to index ..." %}</a>
+
+
+{% endblock %}

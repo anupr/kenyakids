@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+<h1>{{ PROJECT_NAME }}</h1>
+<br>
+{{p}}
+{% for i in p %} 
+
+{{ i }}
+<br> {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block centercontent %}
+{% load i18n %}
+<h1>{% trans "Details Changed" %}</h1>
+{% if p %}
+<p>{% trans "Dear" %} {{ p.username }}, {% trans "Your details have been successfully changed" %}</p>
+{% else %}
+<p>{% trans "something went wrong" %}</p>
+{% endif %}
+{% endblock %}

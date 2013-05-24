@@ -1,0 +1,3 @@
+Kenyakids is a fork for Africa of the Fida/mvdp software at http://bitbucket.org/lawgon/fida/. 
+
+The copyright belongs to Fida International and the software is licensed under the BSD licence.

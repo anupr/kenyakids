@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block centercontent %}
+
+{% if projects.count %}
+    <h1>{% trans "Choose project:" %}</h1>
+    {% for project in projects %}
+    <a href="/statistics/{{ project.id }}/"><h4>{{project}}</h4></a>
+    {% endfor %}
+{% else %}
+    <p>{% trans "You do not have permission to view any projects" %}</p>
+{% endif %}
+
+{% endblock %}

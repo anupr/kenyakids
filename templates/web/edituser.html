@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+<h1>Change Details for {{data.username}}</h1>
+
+{% if errors %}
+<h2>{% trans "Please correct the following errors:" %}</h2>
+
+{% endif%}
+
+<form method="POST" action="/edituser/{{data.id}}/">{% csrf_token %}
+<table border="1">
+<tr>
+<Th>{% trans "First Name" %}</Th>
+<td><input type="text" name="first_name" value="{{data.first_name}}"/>{{ errors.first_name }}</td>
+</tr>
+<tr>
+<Th>{% trans "Last Name" %}</Th>
+<td><input type="text" name="last_name" value="{{data.last_name}}"/>{{ errors.last_name }}</td>
+</tr>
+<tr>
+<Th>{% trans "New Password" %}</Th>
+<td><input type="password" name="pass1" value="{{data.pass1}}"/>{{ errors.pass1 }}</td>
+</tr>
+<tr>
+<Th>{% trans "Repeat Password" %}</Th>
+<td><input type="password" name="pass2" value="{{data.pass2}}"/></td>
+</tr>
+
+<tr><TD colspan="2" align="center"><input type="submit" name="Submit" value="Change" class="btn"></TD></tr>
+</table>
+</form>
+{% endblock %}

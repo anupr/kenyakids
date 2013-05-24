@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block centercontent %}
+
+{% if area %}
+    <h2>{% trans "Project: "%} {{ area.project }}</h2>
+    <h2>{% trans "Area: "%} {{ area }}</h2>
+    {% if area.picture %}
+    <div id="newsimage">
+        <img src="/sitemedia/{{ area.picture }}" width="50%">
+    </div>
+    {% endif %}
+{% ifequal request.LANGUAGE_CODE "en" %}
+    {% if area.description %}
+    <p align="justify">
+    {% autoescape off %}
+    {{ area.description }}
+    {% endautoescape %}
+    </p>
+    {% endif %}
+    {% else %}
+    {% if area.description %}
+    <p align="justify">
+    {% autoescape off %}
+    {{ area.description|safe }}
+    {% endautoescape %}
+    </p>
+    {% endif %}
+{% endifequal %}
+{% else %}
+    <p>{% trans "Item Not Found" %}</p>
+{% endif %}
+
+{% endblock %}

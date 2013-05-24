@@ -1,0 +1,1540 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-10 10:28+0300\n"
+"PO-Revision-Date: 2012-05-10 10:33\n"
+"Last-Translator:   <lawgon@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Translated-Using: django-rosetta 0.6.2\n"
+
+#: default_settings.py:14 settings.py:14
+msgid "English"
+msgstr "Englanti"
+
+#: default_settings.py:15 settings.py:15
+msgid "Finnish"
+msgstr "Suomi"
+
+#: default_settings.py:16
+msgid "Slovak"
+msgstr "Slovak"
+
+#: default_settings.py:17
+msgid "Marathi"
+msgstr "Marathi"
+
+#: default_settings.py:18
+msgid "Hindi"
+msgstr "Hindi"
+
+#: default_settings.py:19
+msgid "Tamil"
+msgstr "Tamil"
+
+#: default_settings.py:120
+msgid "Maharashtra Village Development Project"
+msgstr "Maharashtran Kyläkehityshanke"
+
+#: default_settings.py:121
+msgid "kenyakids"
+msgstr ""
+
+#: settings.py:117
+#, fuzzy
+msgid "Africa Development Project"
+msgstr "Maharashtran Kyläkehityshanke"
+
+#: settings.py:118
+msgid "africakids"
+msgstr ""
+
+#: templates/500.html:4 templates/500.html.py:7
+msgid "Application Error"
+msgstr "Sovellus"
+
+#: templates/500.html:8
+msgid ""
+"Sorry for the inconvenience as something seems to have gone wrong on "
+"our end. Please try after a little while or contact the site "
+"administrators."
+msgstr ""
+
+#: templates/base.html:25 templates/basext.html:22
+msgid "login"
+msgstr "Kirjaudu sisään"
+
+#: templates/base.html:29
+msgid "logout"
+msgstr "Kirjaudu ulos"
+
+#: templates/base.html:48
+msgid "Menu"
+msgstr "Valikko"
+
+#: templates/base.html:80
+msgid "Xlquest"
+msgstr ""
+
+#: templates/base.html:81
+#, fuzzy
+msgid "powered by Linux, Apache, Python, Postgresql and Django copyright 2011"
+msgstr "powered by Linux, Apache, Python, Postgresql and Django copyright 2006"
+
+#: templates/base.html:82 templates/web/backup.html:4 templates/web/mail.txt:6
+msgid "Fida International"
+msgstr "Fida International"
+
+#: templates/base.html:83 templates/web/annualreport.html:10
+#: templates/web/childfull.html:9 templates/web/freechildfull.html:14
+#: templates/web/mailinglist.html:36 templates/web/mailinglist.html.py:56
+#: templates/web/sponsorfull.html:11 web/views.py:850
+msgid "Code"
+msgstr "Koodi"
+
+#: templates/basext.html:7
+msgid "NRC-FOSS Helpline"
+msgstr "NRC-FOSS Helpline"
+
+#: templates/basext.html:59 templates/basext.html.py:61
+msgid "NRC-FOSS"
+msgstr "NRC-FOSS"
+
+#: templates/basext.html:60
+msgid "powered by Linux, Apache, Python, Postgresql and Django copyright 2006"
+msgstr "powered by Linux, Apache, Python, Postgresql and Django copyright 2006"
+
+#: templates/ind.html:7
+msgid "First"
+msgstr "Ensimmäinen"
+
+#: templates/ind.html:15
+msgid "Previous"
+msgstr "Edellinen"
+
+#: templates/ind.html:23
+msgid "Next"
+msgstr "Seuraava"
+
+#: templates/ind.html:31
+msgid "Last"
+msgstr "Viimeinen"
+
+#: templates/sizer.html:6
+msgid "Small"
+msgstr "Pieni"
+
+#: templates/sizer.html:13
+msgid "Medium"
+msgstr "Keskikokoinen"
+
+#: templates/sizer.html:19
+msgid "Big"
+msgstr "Iso"
+
+#: templates/sizer.html:25
+msgid "Full"
+msgstr "Täysi"
+
+#: templates/registration/logged_out.html:4
+msgid "Logged Out"
+msgstr "Kirjautunut ulos"
+
+#: templates/registration/logged_out.html:5
+msgid "You have logged out of the site"
+msgstr "Olet kirjautunut ulos tältä sivulta"
+
+#: templates/registration/logged_out.html:6
+msgid "Login again"
+msgstr "Kirjaudu uudelleen"
+
+#: templates/registration/login.html:11
+msgid "Your Username and Password didnt match - try again"
+msgstr "Käyttäjätunnuksesi ja salasana eivät täsmää - yritä uudelleen"
+
+#: templates/registration/login.html:16
+msgid "User Name:"
+msgstr "Käyttäjätunnus:"
+
+#: templates/registration/login.html:19
+msgid "Password:&nbsp;&nbsp;"
+msgstr "Salasana:"
+
+#: templates/rosetta/base.html:32
+msgid "Home"
+msgstr "Takaisin päävalikkoon"
+
+#: templates/rosetta/base.html:33
+msgid "Admin"
+msgstr "MVDP Hallintapaneeli"
+
+#: templates/web/addtranslation.html:5
+msgid "Add Translation"
+msgstr "Lisää käännös"
+
+#: templates/web/addtranslation.html:10
+msgid "Save"
+msgstr "Tallenna"
+
+#: templates/web/addvoucher.html:12
+msgid "Add Voucher:"
+msgstr "Lisää tosite:"
+
+#: templates/web/annualreport.html:6 templates/web/annualreport.html.py:38
+#: templates/web/childfull.html:6 templates/web/childfull.html.py:66
+#: templates/web/freechildfull.html:9 templates/web/freechildfull.html:50
+#: templates/web/sponsorfull.html:7 templates/web/sponsorfull.html.py:38
+msgid "Back to index ..."
+msgstr "Takaisin hakemistoon ..."
+
+#: templates/web/annualreport.html:9
+msgid "Annual Report for Name: "
+msgstr "Vuosi Raportti lapselle:"
+
+#: templates/web/annualreport.html:11 templates/web/childfull.html:25
+#: templates/web/freechildfull.html:26 web/models.py:266 web/models.py:382
+#: web/models.py:456
+msgid "Area"
+msgstr "Alue"
+
+#: templates/web/annualreport.html:12 templates/web/childfull.html:26
+#: templates/web/freechildfull.html:27 web/models.py:268 web/views.py:204
+#: web/views.py:496 web/views.py:603
+msgid "Sex"
+msgstr "Sukupuoli"
+
+#: templates/web/annualreport.html:13 templates/web/childfull.html:27
+#: templates/web/freechildfull.html:28 web/models.py:269
+msgid "Date of Birth"
+msgstr "Syntymäaika"
+
+#: templates/web/annualreport.html:14 templates/web/childfull.html:28
+#: templates/web/freechildfull.html:29 web/models.py:60 web/models.py:270
+#: web/views.py:207 web/views.py:499 web/views.py:606
+msgid "Language"
+msgstr "Äidinkieli"
+
+#: templates/web/annualreport.html:15 templates/web/childfull.html:29
+#: templates/web/freechildfull.html:31 web/models.py:272 web/views.py:209
+#: web/views.py:501 web/views.py:608
+msgid "Religion"
+msgstr "Uskonto"
+
+#: templates/web/annualreport.html:16 templates/web/childfull.html:30
+#: web/models.py:291 web/views.py:503 web/views.py:610
+msgid "Character"
+msgstr "Luonne"
+
+#: templates/web/annualreport.html:17 templates/web/childfull.html:31
+#: templates/web/freechildfull.html:32 web/views.py:211 web/views.py:505
+#: web/views.py:612
+msgid "School standard"
+msgstr "Kouluaste"
+
+#: templates/web/annualreport.html:18 templates/web/childfull.html:32
+#: web/views.py:507 web/views.py:614
+msgid "School performance"
+msgstr "Koulumenestys"
+
+#: templates/web/annualreport.html:19 templates/web/freechildfull.html:33
+msgid "Hobbies"
+msgstr "Harrastukset"
+
+#: templates/web/annualreport.html:22 templates/web/childfull.html:41
+#: templates/web/freechildfull.html:39 templates/web/mailinglist.html:23
+#: templates/web/sponsorfull.html:18 web/models.py:251 web/models.py:284
+#: web/models.py:367 web/models.py:387 web/views.py:229 web/views.py:529
+#: web/views.py:635 web/views.py:829
+msgid "Remarks"
+msgstr "Muuta huomioitavaa"
+
+#: templates/web/annualreport.html:24
+msgid "Information of childs health"
+msgstr "Tietoa lapsen terveydentilasta"
+
+#: templates/web/annualreport.html:25 web/models.py:410 web/views.py:224
+#: web/views.py:517
+msgid "Health"
+msgstr "Terveydentila"
+
+#: templates/web/annualreport.html:26 web/views.py:518
+msgid "Height"
+msgstr "Pituus"
+
+#: templates/web/annualreport.html:27 web/views.py:519
+msgid "Weight"
+msgstr "Paino"
+
+#: templates/web/annualreport.html:28 web/models.py:173 web/views.py:520
+msgid "Long term diagnosis"
+msgstr "Pitkäaikaissairaudet"
+
+#: templates/web/annualreport.html:29 web/models.py:408
+msgid "Medical Remarks"
+msgstr "Lääketieteelliset merkinnät"
+
+#: templates/web/annualreport.html:31
+msgid "No medical report available"
+msgstr "Lääkärintarkastus raportti ei saatavilla"
+
+#: templates/web/annualreport.html:35 templates/web/areafull.html:32
+#: templates/web/childfull.html:63 templates/web/freechildfull.html:47
+#: templates/web/sponsorfull.html:35
+msgid "Item Not Found"
+msgstr "Hakemaasi kohdetta ei löytynyt"
+
+#: templates/web/areafull.html:7 templates/web/bulkmail.html:6
+#: templates/web/freechildfull.html:12 templates/web/freechildren.html:7
+#: templates/web/mailinglist.html:5
+#, fuzzy
+msgid "Project: "
+msgstr "Projektikummit"
+
+#: templates/web/areafull.html:8
+#, fuzzy
+msgid "Area: "
+msgstr "Alueet:"
+
+#: templates/web/areas.html:7
+msgid "Areas:"
+msgstr "Alueet:"
+
+#: templates/web/areas.html:13
+msgid "No areas entered."
+msgstr "Ei lisättyjä alueita"
+
+#: templates/web/backup.html:6
+msgid "Download Backup"
+msgstr "Lataa varmuuskopio"
+
+#: templates/web/bulkmail.html:6
+msgid "Bulkmailer"
+msgstr "Ryhmäpostitus"
+
+#: templates/web/bulkmail.html:15 templates/web/childsearch.html:15
+#: templates/web/sponsorsearch.html:10
+msgid "Search"
+msgstr "Suorita "
+
+#: templates/web/bulkmail.html:17 templates/web/bulkmail.html.py:37
+#: templates/web/childsearch.html:17 templates/web/sponsorsearch.html:13
+msgid "Select All"
+msgstr "Valitse kaikki"
+
+#: templates/web/bulkmail.html:17 templates/web/bulkmail.html.py:37
+#: templates/web/childsearch.html:17 templates/web/sponsorsearch.html:13
+msgid "Unselect All"
+msgstr "Poista valinnat kaikista"
+
+#: templates/web/bulkmail.html:22
+msgid "Send Mail"
+msgstr "Lähetä sähköposti"
+
+#: templates/web/bulkmail.html:23 templates/web/childfull.html:44
+#: web/models.py:363 web/models.py:381 web/models.py:441 web/views.py:178
+msgid "Sponsor"
+msgstr "Kummi"
+
+#: templates/web/bulkmail.html:24 templates/web/mailinglist.html:40
+#: templates/web/mailinglist.html.py:60 templates/web/sponsorfull.html:15
+#: web/models.py:246 web/views.py:828
+msgid "Country"
+msgstr "Maa"
+
+#: templates/web/bulkmail.html:50
+msgid "Mail selected"
+msgstr "Lähetä viesti"
+
+#: templates/web/childfull.html:8 templates/web/freechildfull.html:13
+#: templates/web/sponsorfull.html:10
+msgid "Name: "
+msgstr "Nimi:"
+
+#: templates/web/childfull.html:33 web/models.py:111 web/models.py:119
+#: web/models.py:298 web/views.py:226 web/views.py:509 web/views.py:616
+#, fuzzy
+msgid "Free time"
+msgstr "Vapaat lapset"
+
+#: templates/web/childfull.html:34 web/views.py:620
+msgid "Male guardian type"
+msgstr ""
+
+#: templates/web/childfull.html:35
+msgid "Male guardians Name"
+msgstr ""
+
+#: templates/web/childfull.html:36
+msgid "Male guardians Job"
+msgstr ""
+
+#: templates/web/childfull.html:37 web/views.py:626
+msgid "Female guardian type"
+msgstr ""
+
+#: templates/web/childfull.html:38
+#, fuzzy
+msgid "Female guardians Name"
+msgstr "Isän nimi"
+
+#: templates/web/childfull.html:39
+msgid "Female guardian Job"
+msgstr ""
+
+#: templates/web/childfull.html:40 templates/web/freechildfull.html:38
+#: web/models.py:354 web/views.py:221 web/views.py:633
+msgid "Siblings"
+msgstr "Sisarukset"
+
+#: templates/web/childfull.html:48 templates/web/sponsorfull.html:24
+#: web/forms.py:34 web/views.py:827
+msgid "From"
+msgstr "Mistä"
+
+#: templates/web/childfull.html:50 templates/web/sponsorfull.html:26
+#: web/forms.py:36
+msgid "To"
+msgstr "Mihin"
+
+#: templates/web/childfull.html:56
+msgid "Does not have a sponsor"
+msgstr "Tällä lapsella ei ole kummia"
+
+#: templates/web/childgallery.html:8 templates/web/children.html:7
+msgid "Children:"
+msgstr "Lapsi:"
+
+#: templates/web/childgallery.html:21 templates/web/children.html:16
+msgid "No children entered."
+msgstr "Ei lisätty uusia lapsia."
+
+#: templates/web/children.html:11
+msgid "Details"
+msgstr "Yksityiskohdat"
+
+#: templates/web/children.html:12 templates/web/childsearch.html:28
+msgid "Annual Report"
+msgstr "Vuosi Raportti"
+
+#: templates/web/childrenofarea.html:5
+msgid "Choose children of area:"
+msgstr "Valitse lapset alueelta:"
+
+#: templates/web/childrenofarea.html:5
+msgid "to print"
+msgstr "Tulosta"
+
+#: templates/web/childrenofarea.html:9 templates/web/childrenofarea.html:11
+#: web/models.py:364 web/models.py:399 web/models.py:426 web/views.py:179
+msgid "Child"
+msgstr "Lapsi"
+
+#: templates/web/childrenofarea.html:14 templates/web/childrenofarea.html:16
+msgid "Annual"
+msgstr "Vuosittainen"
+
+#: templates/web/childrenofarea.html:19 templates/web/childrenofarea.html:21
+msgid "Child_english"
+msgstr "Lapsi_englanniksi"
+
+#: templates/web/childrenofarea.html:24 templates/web/childrenofarea.html:26
+msgid "Annual_english"
+msgstr "Vusittainen_englanniksi"
+
+#: templates/web/childsearch.html:9
+msgid "Details and Printing"
+msgstr "Yksityiskohdat ja tulostus"
+
+#: templates/web/childsearch.html:10 web/models.py:207
+#, fuzzy
+msgid "Project"
+msgstr "Projektikummit"
+
+#: templates/web/childsearch.html:27
+msgid "Child Report"
+msgstr "Lapsen perustiedot"
+
+#: templates/web/childsearch.html:29
+msgid "Child Story"
+msgstr "Lapsen taustatiedot"
+
+#: templates/web/chooseproject.html:7 templates/web/chooseprojectfree.html:7
+#: templates/web/chooseprojectstats.html:7
+#, fuzzy
+msgid "Choose project:"
+msgstr "Valitse kummi:"
+
+#: templates/web/chooseproject.html:25 templates/web/chooseprojectfree.html:12
+#: templates/web/chooseprojectstats.html:12
+msgid "You do not have permission to view any projects"
+msgstr ""
+
+#: templates/web/down.html:5 web/models.py:474 web/views.py:35
+msgid "Downloads"
+msgstr "Dokumentit"
+
+#: templates/web/down.html:26
+msgid "No files available for download"
+msgstr "Ei ladattavia tiedostoja"
+
+#: templates/web/edittranslation.html:5
+msgid "Edit Translation"
+msgstr "Muokkaa käännöstä"
+
+#: templates/web/edittranslation.html:10
+msgid "Update"
+msgstr "Päivitä"
+
+#: templates/web/edituser.html:7
+msgid "Please correct the following errors:"
+msgstr "Korjaa seuraavat virheet:"
+
+#: templates/web/edituser.html:14 web/models.py:239 web/views.py:826
+msgid "First Name"
+msgstr "Etunimi"
+
+#: templates/web/edituser.html:18 web/models.py:241 web/views.py:826
+msgid "Last Name"
+msgstr "Sukunimi"
+
+#: templates/web/edituser.html:22
+msgid "New Password"
+msgstr "Uusi Salasana"
+
+#: templates/web/edituser.html:26
+msgid "Repeat Password"
+msgstr "Toista Salasana"
+
+#: templates/web/freechildfull.html:34 web/views.py:213
+msgid "Fathers Name"
+msgstr "Isän nimi"
+
+#: templates/web/freechildfull.html:35 web/views.py:215
+msgid "Fathers Job"
+msgstr "Isän työ"
+
+#: templates/web/freechildfull.html:36 web/views.py:217
+msgid "Mothers Name"
+msgstr "Äidin nimi"
+
+#: templates/web/freechildfull.html:37 web/views.py:219
+msgid "Mothers Job"
+msgstr "Äidin työ"
+
+#: templates/web/freechildren.html:8
+msgid "Children without a sponsor: "
+msgstr "Lapset ilman kummia:"
+
+#: templates/web/freechildren.html:9
+msgid "Number of Free Children: "
+msgstr "Vapaiden lasten määrä:"
+
+#: templates/web/freechildren.html:25
+msgid "No free children."
+msgstr "Ei vapaita lapsia"
+
+#: templates/web/mail.txt:2 templates/web/success.html:6
+msgid "Dear"
+msgstr "Hyvä"
+
+#: templates/web/mailinglist.html:5
+msgid "Sponsorship Letter"
+msgstr "Kummikirje"
+
+#: templates/web/mailinglist.html:5 web/views.py:38
+msgid "Mailing List"
+msgstr "Postituslista"
+
+#: templates/web/mailinglist.html:10 templates/web/mailinglist.html.py:73
+#: templates/web/sponsorsearch.html:24
+msgid "Print"
+msgstr "Tulosta"
+
+#: templates/web/mailinglist.html:16
+msgid "Id"
+msgstr "Nro."
+
+#: templates/web/mailinglist.html:17
+msgid "FirstName "
+msgstr "Etunimi"
+
+#: templates/web/mailinglist.html:18
+msgid "Surname "
+msgstr "Sukunimi"
+
+#: templates/web/mailinglist.html:19
+msgid "Sponsorships "
+msgstr "Kummius"
+
+#: templates/web/mailinglist.html:20
+msgid "From "
+msgstr "Mistä"
+
+#: templates/web/mailinglist.html:21
+msgid "Country "
+msgstr "Maa"
+
+#: templates/web/mailinglist.html:22
+msgid "Address "
+msgstr "Osoite"
+
+#: templates/web/mailinglist.html:32 web/views.py:839
+msgid "children"
+msgstr "Lapset"
+
+#: templates/web/mailinglist.html:37 templates/web/mailinglist.html.py:57
+#: templates/web/sponsorfull.html:12 web/models.py:243
+msgid "Street Address"
+msgstr "Katuosoite"
+
+#: templates/web/mailinglist.html:38 templates/web/mailinglist.html.py:58
+#: templates/web/sponsorfull.html:13
+msgid "City"
+msgstr "Kaupunki"
+
+#: templates/web/mailinglist.html:39 templates/web/mailinglist.html.py:59
+#: templates/web/sponsorfull.html:14 web/models.py:245
+msgid "Postal Code"
+msgstr "Postinumero"
+
+#: templates/web/mailinglist.html:41 templates/web/mailinglist.html.py:61
+#: templates/web/sponsorfull.html:16
+msgid "Phone numbers"
+msgstr "Puhelin numerot"
+
+#: templates/web/mailinglist.html:42 templates/web/mailinglist.html.py:62
+#: templates/web/sponsorfull.html:17 web/models.py:250
+msgid "Email Address"
+msgstr "Sähköposti"
+
+#: templates/web/sponsorfull.html:20 templates/web/statistics.html:21
+#: web/models.py:371 web/views.py:827
+msgid "Sponsorships"
+msgstr "Kummius"
+
+#: templates/web/sponsorfull.html:32
+msgid "Has not sponsored any children"
+msgstr "Ei ole toiminut kenenkään lapsen kummina"
+
+#: templates/web/sponsors.html:6
+msgid "Sponsors:"
+msgstr "Kummit:"
+
+#: templates/web/sponsors.html:13
+msgid "No sponsors entered."
+msgstr "Ei lisätty uusia kummeja."
+
+#: templates/web/sponsorsearch.html:5
+#, fuzzy
+msgid "Choose sponsors in: "
+msgstr "Valitse kummi:"
+
+#: templates/web/statistics.html:6
+#, fuzzy
+msgid "Statistics for: "
+msgstr "Tilastot"
+
+#: templates/web/statistics.html:9
+msgid "Head"
+msgstr "Otsikko"
+
+#: templates/web/statistics.html:10
+msgid "Number"
+msgstr "Numero"
+
+#: templates/web/statistics.html:14 web/models.py:256 web/views.py:34
+msgid "Sponsors"
+msgstr "Kummit"
+
+#: templates/web/statistics.html:28
+msgid "Project sponsors"
+msgstr "Projektikummit"
+
+#: templates/web/statistics.html:35 web/models.py:303 web/views.py:31
+msgid "Children"
+msgstr "Lapset"
+
+#: templates/web/statistics.html:42
+msgid "Girls"
+msgstr "Tytöt"
+
+#: templates/web/statistics.html:49
+msgid "Boys"
+msgstr "Pojat"
+
+#: templates/web/statistics.html:56
+msgid "Free children"
+msgstr "Vapaat lapset"
+
+#: templates/web/statistics.html:64
+#, python-format
+msgid "Children in %(area_name)s"
+msgstr "Lapsi %(area_name)sta"
+
+#: templates/web/statistics.html:71
+msgid "Print sponsor and child statistics"
+msgstr "Tulosta kummien ja lasten tilastot"
+
+#: templates/web/success.html:4
+msgid "Details Changed"
+msgstr "Tietoja muutettu"
+
+#: templates/web/success.html:6
+msgid "Your details have been successfully changed"
+msgstr "Tietojesi päivittäminen onnistui"
+
+#: templates/web/success.html:8
+msgid "something went wrong"
+msgstr "Jokin meni väärin"
+
+#: templates/web/trans_db_strings.html:6
+#, fuzzy
+msgid "Untranslated string summary"
+msgstr "Vain kääntämättömät sanat:"
+
+#: templates/web/trans_db_strings.html:18
+#, python-format
+msgid "%(field)s"
+msgstr ""
+
+#: templates/web/trans_db_strings.html:21
+#, fuzzy
+msgid "Translate"
+msgstr "Käännetyt"
+
+#: templates/web/translation.html:4 templates/web/translation.html.py:15
+#: templates/web/translation.html:49 templates/web/translation.html.py:82
+#: templates/web/translation.html:116 templates/web/translation.html.py:149
+#: web/views.py:39
+msgid "Translation"
+msgstr "Kielenkääntö"
+
+#: templates/web/translation.html:14 templates/web/translation.html.py:48
+#: templates/web/translation.html:81 templates/web/translation.html.py:115
+#: templates/web/translation.html:148
+msgid "English Term"
+msgstr "Enlantilainen termi"
+
+#: templates/web/translation.html:19 templates/web/translation.html.py:53
+#: templates/web/translation.html:86 templates/web/translation.html.py:120
+#: templates/web/translation.html:153
+msgid "No Items Found"
+msgstr "Hakemaasi kohdetta ei löytynyt"
+
+#: templates/web/translation_choice.html:5
+msgid "Choose translation values"
+msgstr ""
+
+#: templates/web/translation_choice.html:7
+#, fuzzy
+msgid "Translate catalog strings"
+msgstr "Vain käännetyt:"
+
+#: templates/web/translation_choice.html:8
+msgid "Translate database strings"
+msgstr ""
+
+#: web/forms.py:38
+msgid "Passive children"
+msgstr "Passiiviset lapset"
+
+#: web/forms.py:49
+msgid "Last name contains"
+msgstr "Sukunimi sisältää kirjaimia"
+
+#: web/forms.py:65
+msgid "Name contains the string:"
+msgstr "Nimi sisätlää kirjaimia"
+
+#: web/forms.py:69
+msgid "Subject"
+msgstr "Aihe"
+
+#: web/forms.py:70
+msgid "Message/Mail"
+msgstr "Viesti"
+
+#: web/forms.py:72
+msgid "Attached file"
+msgstr "Liitetiedosto"
+
+#: web/models.py:9
+msgid "Christian"
+msgstr "Kristitty"
+
+#: web/models.py:10
+msgid "Muslim"
+msgstr "Muslimi"
+
+#: web/models.py:11
+msgid "Hindu"
+msgstr "Hindu"
+
+#: web/models.py:12
+msgid "Buddhist"
+msgstr "Budhalainen"
+
+#: web/models.py:13 web/models.py:20 web/models.py:28
+msgid "Other"
+msgstr "Muu"
+
+#: web/models.py:16
+#, fuzzy
+msgid "Father"
+msgstr "Isän työ"
+
+#: web/models.py:17
+msgid "Grandfather"
+msgstr ""
+
+#: web/models.py:18
+#, fuzzy
+msgid "Brother"
+msgstr "Muu"
+
+#: web/models.py:19
+msgid "Uncle"
+msgstr ""
+
+#: web/models.py:21 web/models.py:29 web/models.py:36
+msgid "-"
+msgstr ""
+
+#: web/models.py:24
+#, fuzzy
+msgid "Mother"
+msgstr "Äidin työ"
+
+#: web/models.py:25
+msgid "Grandmother"
+msgstr ""
+
+#: web/models.py:26
+msgid "Sister"
+msgstr ""
+
+#: web/models.py:27
+msgid "Aunt"
+msgstr ""
+
+#: web/models.py:33
+msgid "Good"
+msgstr "Hyvä"
+
+#: web/models.py:34
+msgid "Average"
+msgstr "Kohtalainen"
+
+#: web/models.py:35
+msgid "Poor"
+msgstr "Heikko"
+
+#: web/models.py:40
+msgid "Friendly"
+msgstr "Ystävällinen"
+
+#: web/models.py:41
+msgid "Talkative"
+msgstr "Puhelias"
+
+#: web/models.py:42
+msgid "Quiet"
+msgstr "Hiljainen"
+
+#: web/models.py:43
+msgid "Ambitious"
+msgstr "Kunnianhimoinen"
+
+#: web/models.py:47
+msgid "Boy"
+msgstr "Poika"
+
+#: web/models.py:48
+msgid "Girl"
+msgstr "Tyttö"
+
+#: web/models.py:62
+msgid "Language Code"
+msgstr "Kieli koodi"
+
+#: web/models.py:69
+msgid "Language already exists"
+msgstr "Valittu kieli on jo listalla"
+
+#: web/models.py:72
+msgid "Languages"
+msgstr "Kielet"
+
+#: web/models.py:73
+msgid "language"
+msgstr "kieli"
+
+#: web/models.py:83 web/models.py:297
+msgid "School Standard"
+msgstr "Kouluaste"
+
+#: web/models.py:89
+msgid "School standard already exists"
+msgstr "Kouluaste on jo listalla"
+
+#: web/models.py:92
+msgid "School standards"
+msgstr "Kouluasteet"
+
+#: web/models.py:93
+msgid "school standard"
+msgstr "kouluaste"
+
+#: web/models.py:99 web/models.py:349 web/views.py:202 web/views.py:493
+#: web/views.py:601
+msgid "Name"
+msgstr "Nimi"
+
+#: web/models.py:102
+msgid "Doctors"
+msgstr "Lääkärit"
+
+#: web/models.py:103
+msgid "doctor"
+msgstr "lääkäri"
+
+#: web/models.py:116
+msgid "Hobby already exists"
+msgstr "Harrastus on jo listalla"
+
+#: web/models.py:120
+msgid "free time"
+msgstr ""
+
+#: web/models.py:129
+msgid "Character Type"
+msgstr "Luonnetyyppi"
+
+#: web/models.py:134
+msgid "Character already exists"
+msgstr "Luonne tyypit on jo listalla"
+
+#: web/models.py:137
+msgid "Character types"
+msgstr "Luonne tyypit"
+
+#: web/models.py:138
+msgid "character type"
+msgstr "luonnetyyppi"
+
+#: web/models.py:146 web/models.py:155
+msgid "Job"
+msgstr "Työ"
+
+#: web/models.py:151
+msgid "Job already exists"
+msgstr "Työ on jo listalla"
+
+#: web/models.py:154
+msgid "Jobs"
+msgstr "Työt"
+
+#: web/models.py:164
+msgid "Longtermdiagnosis"
+msgstr "Pitkäaikaissairaudet"
+
+#: web/models.py:170
+msgid "Long term diagnosis already exists"
+msgstr "Pitkäaikaissairaus on jo listalla"
+
+#: web/models.py:174
+msgid "long term diagnosis"
+msgstr "Pitkäaikaissairaudet"
+
+#: web/models.py:183
+msgid "Short term sickness"
+msgstr ""
+
+#: web/models.py:189
+#, fuzzy
+msgid "Short term sickness already exists"
+msgstr "Pitkäaikaissairaus on jo listalla"
+
+#: web/models.py:192 web/models.py:193
+msgid "Short term sicknesses"
+msgstr ""
+
+#: web/models.py:202
+#, fuzzy
+msgid "Project Code Number"
+msgstr "Alue numero"
+
+#: web/models.py:203
+#, fuzzy
+msgid "Project Name"
+msgstr "Alue Nimi"
+
+#: web/models.py:204
+#, fuzzy
+msgid "Project admins"
+msgstr "Projektikummit"
+
+#: web/models.py:206
+#, fuzzy
+msgid "Projects"
+msgstr "Projektikummit"
+
+#: web/models.py:216
+msgid "Area Code Number"
+msgstr "Alue numero"
+
+#: web/models.py:217
+msgid "Area Name"
+msgstr "Alue Nimi"
+
+#: web/models.py:218
+msgid "Area Description"
+msgstr "Aluekuvaus"
+
+#: web/models.py:220
+msgid "Picture of Area"
+msgstr "Kuva hankealueelta"
+
+#: web/models.py:222 web/models.py:252 web/models.py:293 web/models.py:368
+#: web/models.py:388
+msgid "Is active"
+msgstr "Aktiivinen"
+
+#: web/models.py:227 web/views.py:33
+msgid "Areas"
+msgstr "Alueet"
+
+#: web/models.py:228
+msgid "area"
+msgstr "alue"
+
+#: web/models.py:238
+msgid "Sponsor Code Number"
+msgstr "Kummin numero"
+
+#: web/models.py:242
+msgid "Additional names"
+msgstr ""
+
+#: web/models.py:244
+msgid "City or Town"
+msgstr "Kaupunki tai Kylä"
+
+#: web/models.py:248
+msgid "Phone Numbers"
+msgstr "Puhelinnumero"
+
+#: web/models.py:257
+msgid "sponsor"
+msgstr "kummi"
+
+#: web/models.py:265
+msgid "Child Code Number"
+msgstr "Lapsen numero"
+
+#: web/models.py:267
+msgid "Child Name"
+msgstr "Lapsen nimi"
+
+#: web/models.py:274
+msgid "Male Guardian type"
+msgstr ""
+
+#: web/models.py:276
+msgid "Male Guardian Name"
+msgstr ""
+
+#: web/models.py:277
+msgid "Male Guardian Job"
+msgstr ""
+
+#: web/models.py:279
+msgid "Female Guardian type"
+msgstr ""
+
+#: web/models.py:281
+msgid "Female Guardian Name"
+msgstr ""
+
+#: web/models.py:282
+msgid "Female Guardian Job"
+msgstr ""
+
+#: web/models.py:285
+msgid "Picture of Child"
+msgstr "Kuva lapsesta"
+
+#: web/models.py:288
+msgid "Picture of Family"
+msgstr "Kuva perheestä"
+
+#: web/models.py:294
+msgid "School Performance"
+msgstr "Koulumenestys"
+
+#: web/models.py:304
+msgid "child"
+msgstr "lapsi"
+
+#: web/models.py:340 web/views.py:705
+msgid "Child Stories"
+msgstr "Lasten taustatiedot"
+
+#: web/models.py:350
+msgid "Gender"
+msgstr ""
+
+#: web/models.py:351
+#, fuzzy
+msgid "Year of birth"
+msgstr "Syntymäaika"
+
+#: web/models.py:365 web/models.py:383
+msgid "Start Date"
+msgstr "Aloituspäivä"
+
+#: web/models.py:366 web/models.py:384
+msgid "End Date"
+msgstr "Päättymispäivä"
+
+#: web/models.py:372
+msgid "sponsorship"
+msgstr "kummius"
+
+#: web/models.py:385
+msgid "Number of children"
+msgstr "Lasten määrä"
+
+#: web/models.py:391
+#, fuzzy
+msgid "Community Sponsorships"
+msgstr "Projektikummit"
+
+#: web/models.py:392
+#, fuzzy
+msgid "Community sponshorship"
+msgstr "projekitikummi"
+
+#: web/models.py:400 web/models.py:427 web/models.py:442 web/models.py:457
+#: web/views.py:531
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: web/models.py:401
+msgid "Height in cms"
+msgstr "Pituus (cm)"
+
+#: web/models.py:402
+msgid "Weight in kgs"
+msgstr "Paino (kg)"
+
+#: web/models.py:405
+msgid "Longterm Diagnosis"
+msgstr "Pitkäaikaussairaudet"
+
+#: web/models.py:412
+msgid "Doctor"
+msgstr "Lääkäri"
+
+#: web/models.py:417
+msgid "Checkups"
+msgstr "Lääkärintarkastukset"
+
+#: web/models.py:418
+msgid "checkup"
+msgstr "lääkärintarkastus"
+
+#: web/models.py:428 web/models.py:443 web/models.py:458
+msgid "Note"
+msgstr "Huom."
+
+#: web/models.py:431
+msgid "Notes on child"
+msgstr "Huomioitavaa lapsesta"
+
+#: web/models.py:432
+msgid "note on child"
+msgstr "huomioitavaa lapsesta"
+
+#: web/models.py:446
+msgid "Notes on sponsor"
+msgstr "Huomioitavaa kummista"
+
+#: web/models.py:447
+msgid "note on sponsor"
+msgstr "huomioitavaa kummista"
+
+#: web/models.py:461
+msgid "Notes on area"
+msgstr "Huomioitavaa alueesta"
+
+#: web/models.py:462
+msgid "note on area"
+msgstr "huomioitavaa alueesta"
+
+#: web/models.py:469
+msgid "Name of Document"
+msgstr "Dokumentin nimi"
+
+#: web/models.py:471
+msgid "File"
+msgstr "Kansio"
+
+#: web/models.py:475
+msgid "download"
+msgstr "ladata"
+
+#: web/views.py:32
+msgid "Free Children"
+msgstr "Vapaat lapset"
+
+#: web/views.py:36 web/views.py:193
+msgid "Statistics"
+msgstr "Tilastot"
+
+#: web/views.py:37
+msgid "Mail sponsors"
+msgstr "Lähetä postia kummeille"
+
+#: web/views.py:178
+msgid "Sponsor Number"
+msgstr "Kummin numero"
+
+#: web/views.py:179
+msgid "Child Number"
+msgstr "Lapsen numero"
+
+#: web/views.py:205 web/views.py:497 web/views.py:604
+msgid "Date of birth"
+msgstr "Syntymäaika"
+
+#: web/views.py:286
+msgid "Child report"
+msgstr "Lapsen perustiedot"
+
+#: web/views.py:332
+msgid "Sponsors List"
+msgstr "Kummius"
+
+#: web/views.py:478 web/views.py:548 web/views.py:667
+msgid "Annual Sponsorship child report"
+msgstr "Kummilapsen vuosiraportti"
+
+#: web/views.py:483 web/views.py:583
+msgid "General information about the child"
+msgstr "Lapset perustiedot"
+
+#: web/views.py:485
+msgid "Information about the child's health"
+msgstr "Tietoa lapsen terveydentilasta"
+
+#: web/views.py:494
+msgid "Child number"
+msgstr "Lapsen numero"
+
+#: web/views.py:495 web/views.py:602
+msgid "Village area"
+msgstr "Kylä"
+
+#: web/views.py:504 web/views.py:611 web/views.py:634
+msgid ", "
+msgstr ""
+
+#: web/views.py:521
+msgid "Medical remarks"
+msgstr "Tietoa terveydentilasta"
+
+#: web/views.py:578
+#, fuzzy
+msgid "Sponsored child report"
+msgstr "Kummilapsen vuosiraportti"
+
+#: web/views.py:585
+#, fuzzy
+msgid "Child story"
+msgstr "Lapsen taustatiedot"
+
+#: web/views.py:587
+#, python-format
+msgid "Dated %s"
+msgstr "Päivämäärä %s"
+
+#: web/views.py:622
+#, fuzzy
+msgid "Male guardian name"
+msgstr "Isän nimi"
+
+#: web/views.py:624
+#, fuzzy
+msgid "Male guardian job"
+msgstr "Isän nimi"
+
+#: web/views.py:628
+#, fuzzy
+msgid "Female guardian name"
+msgstr "Isän nimi"
+
+#: web/views.py:630
+#, fuzzy
+msgid "Female guardian job"
+msgstr "Isän nimi"
+
+#: web/views.py:823
+msgid "List of sponsors"
+msgstr "Postituslista"
+
+#: web/views.py:828
+msgid "Address"
+msgstr "Osoite"
+
+#: web/views.py:864
+#, fuzzy, python-format
+msgid "%s Sponsor List"
+msgstr "Kummius"
+
+#: web/management/commands/send_untrans_string_status.py:26
+#, python-format
+msgid "%(project_name)s Untranslated String Status"
+msgstr "%(project_name)s"
+
+#~ msgid "Area Name: "
+#~ msgstr "Alueen nimi:"
+
+#~ msgid "Receipt"
+#~ msgstr "Kuitti"
+
+#~ msgid "Payment"
+#~ msgstr "Maksu"
+
+#~ msgid "Hobby"
+#~ msgstr "Harrastus"
+
+#~ msgid "hobby"
+#~ msgstr "harrastus"
+
+#~ msgid "Medical remarks already exists"
+#~ msgstr "Tämä tieto terveydentilasta on jo listalla"
+
+#~ msgid "medical remarks"
+#~ msgstr "Tietoa terveydentilasta"
+
+#~ msgid "Is Project Sponsor"
+#~ msgstr "Projektikummi"
+
+#~ msgid "Father Name"
+#~ msgstr "Isän nimi"
+
+#~ msgid "Mother Name"
+#~ msgstr "Äidin nimi"
+
+#~ msgid "Page not found"
+#~ msgstr "Hakemaasi kohdetta ei löytynyt"
+
+#~ msgid "We're sorry, but the requested page could not be found."
+#~ msgstr "Olemme pahoillamme mutta haluaamasi sivua ei ole saatavilla"
+
+#~ msgid "Server error"
+#~ msgstr "Palvelin virhe"
+
+#~ msgid "Server error (500)"
+#~ msgstr "Palvelin virhe (500)"
+
+#~ msgid "Server Error <em>(500)</em>"
+#~ msgstr "Palvelin virhe <em>(500)</em>"
+
+#~ msgid ""
+#~ "There's been an error. It's been reported to the site administrators "
+#~ "via e-mail and should be fixed shortly. Thanks for your patience."
+#~ msgstr ""
+#~ "Tapahtui virhe, Virhe on ilmoitettu järjestelmanvalvojalle "
+#~ "sähköpostitise ja se korjataan pikinmiten. Kiitokset "
+#~ "kärsivällisyydestäsi."
+
+#~ msgid "Welcome,"
+#~ msgstr "Tervetuloa,"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentointi"
+
+#~ msgid "Change password"
+#~ msgstr "Vaihda salasana"
+
+#~ msgid "Log out"
+#~ msgstr "Kirjaudu ulos"
+
+#~ msgid "Django site admin"
+#~ msgstr "Django hallinta"
+
+#~ msgid "Django administration ({{ SHORT_PROJECT_NAME }})"
+#~ msgstr "Django hallinta (MVDP)"
+
+#~ msgid "MVDP Sponsor List"
+#~ msgstr "MVDP kummi lista"
+
+#~ msgid "Language selection"
+#~ msgstr "Kieli valikko"
+
+#~ msgid "Progress"
+#~ msgstr "Edistyminen"
+
+#~ msgid "Messages"
+#~ msgstr "Viestit"
+
+#~ msgid "Fuzzy"
+#~ msgstr "Epätarkka"
+
+#~ msgid "Obsolete"
+#~ msgstr "Vanhentunut"
+
+#~ msgid "Nothing to translate!"
+#~ msgstr "Merkintä kielenkäännössä"
+
+#~ msgid ""
+#~ "You haven't specified any languages in your settings file, or haven't "
+#~ "yet generated a batch of translation catalogs."
+#~ msgstr ""
+#~ "Et valinnut mitään kieltä asetuksissa, tai et vielä ole luonut "
+#~ "kieliasetuksia."
+
+#~ msgid ""
+#~ "Please refer to <a href=\"%(i18n_doc_link)s\">Django's I18N "
+#~ "documentation</a> for a guide on how to set up internationalization for"
+#~ " your project."
+#~ msgstr ""
+#~ "Katso <a href=\"%(i18n_doc_link)s\">Django's I18N documentation</a> "
+#~ "ohjeet miten asettaa maakoodi hankkeelle."
+
+#~ msgid "Pick another file"
+#~ msgstr "Valitse toinen kansio"
+
+#~ msgid "Download this catalog"
+#~ msgstr "Lataa tämä luettelo"
+
+#~ msgid "Progress: %(percent_translated)s%%"
+#~ msgstr "Eteneminen: %(percent_translated)s%%"
+
+#~ msgid "File is read-only: download the file when done editing!"
+#~ msgstr "Tiedosto on vain lukumuodossa: lataa tiedosto muokkaaksesi sitä!"
+
+#~ msgid ""
+#~ "Some items in your last translation block couldn't be saved: this "
+#~ "usually happens when the catalog file changes on disk after you last "
+#~ "loaded it."
+#~ msgstr ""
+#~ "Viimeksi käännetyissä sanoissa on joitakin sanoja joita ei voitu "
+#~ "tallettaa: tämä johtuu järjestelmä virheestä."
+
+#~ msgid "Translate into %(rosetta_i18n_lang_name)s"
+#~ msgstr "Käännä muotoon %(rosetta_i18n_lang_name)s"
+
+#~ msgid "Display:"
+#~ msgstr "Näyttö:"
+
+#~ msgid "Fuzzy only"
+#~ msgstr "Vain epätarkat:"
+
+#~ msgid "All"
+#~ msgstr "Kaikki"
+
+#~ msgid "Go"
+#~ msgstr "Suorita"
+
+#~ msgid "Original"
+#~ msgstr "Alkuperäinen"
+
+#~ msgid "Occurrences(s)"
+#~ msgstr "Esiintymä(t)"
+
+#~ msgid "suggest"
+#~ msgstr "ehdotus"
+
+#~ msgid "%(more_count)s more"
+#~ msgid_plural "%(more_count)s more"
+#~ msgstr[0] "%(more_count)s lisää"
+#~ msgstr[1] "%(more_count)s lisää"
+
+#~ msgid "Save and translate next block"
+#~ msgstr "Talleta ja käännä seuraava osio"
+
+#~ msgid "Skip to page:"
+#~ msgstr "Ohita tämä sivu:"
+
+#~ msgid "Displaying:"
+#~ msgstr "Näyttää:"
+
+#~ msgid "%(hits)s/%(message_number)s message"
+#~ msgid_plural "%(hits)s/%(message_number)s messages"
+#~ msgstr[0] "%(hits)s/%(message_number)s viesti"
+#~ msgstr[1] "%(hits)s/%(message_number)s viesti"
+
+#~ msgid "Information of child`s health"
+#~ msgstr "Tietoa lapsen terveydestä"
+
+#~ msgid "Untranslated items:"
+#~ msgstr "Kääntämättömät sanat:"
+
+#~ msgid "Print selected sponsor labels"
+#~ msgstr "Tulosta valittujen kummien osoitetarrat"
+
+#~ msgid "Name of account"
+#~ msgstr "Tilin nimi"
+
+#~ msgid "Receipt or Payment"
+#~ msgstr "Maksukuitti"
+
+#~ msgid "Heads of Account"
+#~ msgstr "Tili otsikko"
+
+#~ msgid "Name of cost center"
+#~ msgstr "Kustannuspaikan nimi"
+
+#~ msgid "Cost Centers"
+#~ msgstr "Kustannuspaikat"
+
+#~ msgid "Unique serial number"
+#~ msgstr "Viitenumero"
+
+#~ msgid "Cost Center"
+#~ msgstr "Kustannuspaikka"
+
+#~ msgid "Amount"
+#~ msgstr "Summa"
+
+#~ msgid "Entered By"
+#~ msgstr "Kirjauksen suorittaja"
+
+#~ msgid "Comments"
+#~ msgstr "Huomioitavaa"
+
+#~ msgid "Vouchers"
+#~ msgstr "Tosite"
+
+#~ msgid "Doctor already exists"
+#~ msgstr "Lääkäri on jo listalla"
+
+#~ msgid "Model Name"
+#~ msgstr "Malli nimi"
+
+#~ msgid "Auth"
+#~ msgstr "Viranomainen"
+
+#~ msgid "Sites"
+#~ msgstr "Sivustot"
+
+#~ msgid "Web"
+#~ msgstr "Web"
+
+#~ msgid "Select child to change"
+#~ msgstr "Valitse lapsi muuttaaksesi tietoja"
+
+#~ msgid "Choose sponsors"
+#~ msgstr "Valitse kummi"

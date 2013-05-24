@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+
+<div id="more">
+<a href="{% url children %}">{% trans "Back to index ..." %}</a>
+</div>
+{% if child %}
+    <h2>{% trans "Annual Report for Name: "%} {{ childname }}</h2>
+	<p>{% trans "Code" %} {{ child.code }}</p>
+	<p>{% trans "Area" %}: {{ child.area }}</p>
+	<p>{% trans "Sex" %}: {{ child.get_sex_display }}</p>
+	<p>{% trans "Date of Birth" %}: {{ child.dob|date:"d-m-Y" }}</p>
+	<p>{% trans "Language" %}: {{ child.language.fi }}</p>
+	<p>{% trans "Religion" %}: {{ child.get_religion_display }}</p>
+	<p>{% trans "Character" %}: {{ child.character.fi }}</p>
+	<p>{% trans "School standard" %}: {{ child.schoolstd }}</p>
+	<p>{% trans "School performance" %}: {{ child.get_schoolperf_display }}</p>
+	<p>{% trans "Hobbies" %}: {% for hob in child.hobbies.all %}
+			{{ hob.fi }},
+				{% endfor %}</p>
+	<p>{% trans "Remarks" %}: {{ child.remarks_fin }}</p>
+	{% if checkup.count %}
+	<h4>{% trans "Information of childs health" %}</h4>
+	<p>{% trans "Health" %} {{checkup.get_health_display}}</p>
+	<p>{% trans "Height" %} {{checkup.height}}</p>
+	<p>{% trans "Weight" %} {{checkup.weight}}</p>
+	<p>{% trans "Long term diagnosis" %} {{checkup.ltdiagnosis_fin}}</p>
+	<p>{% trans "Medical Remarks" %} {{checkup.remarks_fin}}</p>
+	{% else %}
+	<p>{% trans "No medical report available" %}</p>
+	{% endif %}
+
+{% else %}
+    <p>{% trans "Item Not Found" %}</p>
+{% endif %}
+<div id="more">
+<p><a href="{% url children %}">{% trans "Back to index ..." %}</a></p>
+
+</div>
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block head %}
+<script language="javascript" type="text/javascript" src="/sitemedia/js/indicime.js"></script>
+{% endblock %}
+{% block onload %}
+<body onload="javascript:init();">
+{% endblock %}
+{% block centercontent %}
+<form name="indicForm">
+
+	<table border="0">
+	  <tr>
+	    <td width="180px">
+
+	      <input type="hidden" name="offset" value="">
+	      <input type="hidden" name="convertFlag" value="">
+
+	      <span>Select Keyboard Layout</span>
+
+	      <select name="selectKeyboard" 
+		onChange="javascript:getKeyboardMappingURL(this);">
+		<option>Select Keyboard</option>
+		<option value="0" label="Inscript">Inscript</option>
+		<option value="1" label="WX">WX</option>
+	      </select>
+      </td>
+      </tr>
+	    <tr>
+		 
+	    <td width="180px">
+	      <span>Select your Language</span>
+	      <select name="selectLanguage" onChange="javascript:getLanguage(this);" width="10px" >
+		<option>Select Language</option>
+		<option label="English"     value="-1">English</option>
+		<option label="Devanagari"  value="0">Hindi</option>
+		<option label="Bengali"     value="1">Bengali</option>
+		<option label="Gurumukhi"   value="2">Gurumukhi</option>
+		<option label="Gujarathi"   value="3">Gujarathi</option>
+		<option label="Oriya"       value="4">Oriya</option>
+		<option label="Tamil"       value="5">Tamil</option>
+		<option label="Telugu"      value="6">Telugu</option>
+		<option label="Kannada"     value="7">Kannada</option>
+		<option label="Malayalam"   value="8">Malayalam</option>
+	      </select>
+	    </td>
+	  </tr>
+	  <tr>
+             <td>
+		     <textarea id="editor" cols="70" rows="10" name="content" wrap="virtual"></textarea> 
+	     </td>
+	  </tr>
+	 </table>
+        </form>
+{% endblock %}

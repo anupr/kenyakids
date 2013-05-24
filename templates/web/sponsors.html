@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+
+{% if sponsor_list.count %}
+<h1>{% trans "Sponsors:" %}</h1>
+
+{% for sponsor in sponsor_list %}
+<a href="{% url sponsorfull id=sponsor.id %}"><h4>{{ sponsor.code}} : {{sponsor.fname}} {{sponsor.lname}}</h4></a>
+{% endfor %}
+
+{% else %}
+    <p>{% trans "No sponsors entered." %}</p>
+{% endif %}
+
+{% endblock %}

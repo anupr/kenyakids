@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block centercontent %}
+<h1>{% trans "Choose translation values" %}</h1>
+<ul>
+  <li><a href="{% url rosetta-home %}">{% trans "Translate catalog strings" %}</a></li>
+  <li><a href="{% url trans-db-strings %}">{% trans "Translate database strings" %}</a></li>
+</ul>
+{% endblock %}

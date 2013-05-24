@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>{{ SHORT_PROJECT_NAME }}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/sitemedia/css/file.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/sitemedia/js/jquery.js"></script>
+{% load i18n %}
+{% load base_utils %}
+{% get_available_languages as languages %}
+{% get_current_language as language %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
+{% block head %}
+{% endblock %}
+</head>
+<body>
+
+<div id= "header">
+    <img src="/sitemedia/pics/top.jpg" width="800" height="140">
+    <img src="/sitemedia/pics/spacer.gif" width="1" height="2">
+</div>
+
+<div id="book">
+<div id= "content">
+{% if request.user.is_anonymous %}
+<a href="{% url "login" %}" class="leftlinks">{% trans "login" %}</a>
+{% else %}
+{% if request.user.is_authenticated %}
+<a href="{% url home %}" class="leftlinks">{{ request.user.username }}</a>
+<a href="{% url logout %}" class="leftlinks">{% trans "logout" %}</a>
+{% endif %}
+{% endif %}
+</div>
+</div>
+
+
+<div id="nav">
+<ul><li><img src="/sitemedia/pics/links_top.gif">
+    <form action="/i18n/setlang/" method="post">
+                <select name="language">
+                {% for lang in LANGUAGES %}
+                <option value="{{ lang.0 }}" {% ifequal lang.0 request.LANGUAGE_CODE %}selected="yes"{% endifequal %}>{{ lang.1 }}</option>
+                {% endfor %}
+                </select>
+                <input type="submit" value="Go" />
+            </form>
+			
+   <div id="menu">
+{% trans "Menu" %}
+</div>
+</li>
+{% block navsite %}
+
+		
+				{% get_menu %}
+				{% for p in menu %}
+                <img src="/sitemedia/pics/seperator.gif" width="200" height="3">
+					<li class="{% ifequal active_tab p.url %}active{% endifequal %}">
+                    <img src="/sitemedia/pics/arrow.gif"  align="left">
+					<a href = "/{{ p.url }}" {{ p.id }}> {{ p.name }}
+					</a>
+					</li>
+				{% endfor %}
+                
+				{% endblock %}
+                <img src="/sitemedia/pics/seperator.gif" width="200" height="3">
+    </ul>
+    
+</div>
+
+		
+<div id ="centercontent">
+{% block centercontent %}
+This is some content
+
+{% endblock %}
+</div>
+ 
+
+<div id="footer">
+	Built by <a href="http:xlquest.net">{% trans "Xlquest" %}</a>, 
+    {% trans "powered by Linux, Apache, Python, Postgresql and Django copyright 2011" %}  
+ <a href="http://www.fida.info">{% trans "Fida International" %}</a>
+  <a href="http://bitbucket.org/lawgon/kenyakids/" >{% trans "Code" %}</a>
+</div>
+{% block extra_js %}
+{% endblock %}
+</body>
+</html>
+

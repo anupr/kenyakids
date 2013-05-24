@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+
+<h1>{% trans "Downloads" %}</h1>
+
+<br/>
+{% if download_list.count %}
+<table class="sortable" width="100%" border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Language</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for download in download_list %}
+    <tr>
+      <td><a href="{{ download.document.url }}">{{ download.name }}</a></td>
+      <td>{% if download.language %}{{ download.language }}{% else %}-{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+  <p>{% trans "No files available for download" %}</p>
+{% endif %}
+
+{% endblock %}
+
+
+{% block extra_js %}
+  <script type="text/javascript" src="/sitemedia/js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("table.sortable").tablesorter();
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+
+{% block centercontent %}
+    <h2>{% trans "Bulkmailer" %}  {% trans "Project: " %} {{project}}</h2>
+
+    {% if success %}
+    <h2>Mail successfully sent.</h2>
+    {% endif %}
+    
+    <form  enctype="multipart/form-data" method="POST" action=".">{% csrf_token %}
+      <p>{{form.sstr.label}}	 {{ form.sstr }}  </p>
+      <p>
+	<input type='submit' name = 'search' value="{% trans "Search" %}" />
+      </p>
+      <p><a href="javascript:selectAll();">{% trans "Select All" %}</a> | <a href="javascript:unselectAll();">{% trans "Unselect All" %}</a></p>
+      <p>
+	<table class="sortable" width="100%" border="1">
+	  <thead>
+	    <tr>
+	      <th>{% trans "Send Mail" %}</th>
+	      <th>{% trans "Sponsor" %}</th>
+	      <th>{% trans "Country" %}</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	{% for nm in form.sponsors.field.choices %}
+	<tr>
+	  <td><input type="checkbox" checked="true" name="sponsors" value="{{ nm.0 }}" /></td>
+	  <td>{{ nm.1.sponsor.fname }} {{ nm.1.sponsor.lname }}</td>
+	  <td>{{ nm.1.sponsor.country }}</td>
+	</tr>
+	{% endfor %}	  
+	</tbody>
+	</table>
+      <p><a href="javascript:selectAll();">{% trans "Select All" %}</a> | <a href="javascript:unselectAll();">{% trans "Unselect All" %}</a></p>
+      {% for field in form %}
+      {% ifnotequal field.name "sstr" %}
+      {% ifnotequal field.name "sponsors" %}
+      <dd>{{ field.label_tag }}</dd>
+      <dd>{{ field }}</dd>
+      {% if field.help_text %}<dd>{{ field.help_text }}</dd>{% endif %}
+      {% if field.errors %}<dd>{{ field.errors }}</dd>{% endif %}
+      {% endifnotequal %}
+      {% endifnotequal %}
+      {% endfor %}
+      </p>
+      <p>
+	<input type='submit' name = 'sel' value="{% trans "Mail selected" %}" />
+      </p>
+    </form>
+    {% endblock %}
+
+{% block extra_js %}
+<script type="text/javascript" src="/sitemedia/js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript">
+    function selectAll() {
+      $("input[type=checkbox]").attr("checked", true);
+    }
+
+    function unselectAll() {
+      $("input[type=checkbox]").attr("checked", false);
+    }
+
+    $(document).ready(function() { 
+      $("table.sortable").tablesorter();
+    });
+</script>
+{% endblock %}

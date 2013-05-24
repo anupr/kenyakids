@@ -1,0 +1,1538 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-10 10:28+0300\n"
+"PO-Revision-Date: 2010-12-14 10:09\n"
+"Last-Translator: <admin@mvdpkummit.info>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.5.6\n"
+
+#: default_settings.py:14 settings.py:14
+msgid "English"
+msgstr "Anglický"
+
+#: default_settings.py:15 settings.py:15
+msgid "Finnish"
+msgstr "Fínsky"
+
+#: default_settings.py:16
+msgid "Slovak"
+msgstr "Slovenský"
+
+#: default_settings.py:17
+msgid "Marathi"
+msgstr "Marathi"
+
+#: default_settings.py:18
+msgid "Hindi"
+msgstr "Hindi"
+
+#: default_settings.py:19
+msgid "Tamil"
+msgstr "Tamil"
+
+#: default_settings.py:120
+msgid "Maharashtra Village Development Project"
+msgstr "Projekt rozvoja dedín v Maharaštre"
+
+#: default_settings.py:121
+msgid "kenyakids"
+msgstr ""
+
+#: settings.py:117
+#, fuzzy
+msgid "Africa Development Project"
+msgstr "Projekt rozvoja dedín v Maharaštre"
+
+#: settings.py:118
+msgid "africakids"
+msgstr ""
+
+#: templates/500.html:4 templates/500.html.py:7
+#, fuzzy
+msgid "Application Error"
+msgstr "Aplikácia"
+
+#: templates/500.html:8
+msgid ""
+"Sorry for the inconvenience as something seems to have gone wrong on our "
+"end. Please try after a little while or contact the site administrators."
+msgstr ""
+
+#: templates/base.html:25 templates/basext.html:22
+msgid "login"
+msgstr "prihlásenie"
+
+#: templates/base.html:29
+msgid "logout"
+msgstr "- odhlásiť"
+
+#: templates/base.html:48
+msgid "Menu"
+msgstr "Zoznam sekcií"
+
+#: templates/base.html:80
+msgid "Xlquest"
+msgstr ""
+
+#: templates/base.html:81
+#, fuzzy
+msgid "powered by Linux, Apache, Python, Postgresql and Django copyright 2011"
+msgstr "powered by Linux, Apache, Python, Postgresql and Django copyright 2006"
+
+#: templates/base.html:82 templates/web/backup.html:4 templates/web/mail.txt:6
+msgid "Fida International"
+msgstr "Fida International"
+
+#: templates/base.html:83 templates/web/annualreport.html:10
+#: templates/web/childfull.html:9 templates/web/freechildfull.html:14
+#: templates/web/mailinglist.html:36 templates/web/mailinglist.html.py:56
+#: templates/web/sponsorfull.html:11 web/views.py:850
+msgid "Code"
+msgstr "Kód"
+
+#: templates/basext.html:7
+msgid "NRC-FOSS Helpline"
+msgstr "NRC-FOSS Helpline"
+
+#: templates/basext.html:59 templates/basext.html.py:61
+msgid "NRC-FOSS"
+msgstr "NRC-FOSS"
+
+#: templates/basext.html:60
+msgid "powered by Linux, Apache, Python, Postgresql and Django copyright 2006"
+msgstr "powered by Linux, Apache, Python, Postgresql and Django copyright 2006"
+
+#: templates/ind.html:7
+msgid "First"
+msgstr "Prvý"
+
+#: templates/ind.html:15
+msgid "Previous"
+msgstr "Dozadu"
+
+#: templates/ind.html:23
+msgid "Next"
+msgstr "Dopredu"
+
+#: templates/ind.html:31
+msgid "Last"
+msgstr "Posledný"
+
+#: templates/sizer.html:6
+msgid "Small"
+msgstr "Malý"
+
+#: templates/sizer.html:13
+msgid "Medium"
+msgstr "Stredný"
+
+#: templates/sizer.html:19
+msgid "Big"
+msgstr "Veľký"
+
+#: templates/sizer.html:25
+msgid "Full"
+msgstr "Celý"
+
+#: templates/registration/logged_out.html:4
+msgid "Logged Out"
+msgstr "Odhlásený/á"
+
+#: templates/registration/logged_out.html:5
+msgid "You have logged out of the site"
+msgstr "Odhlásili ste sa zo stránky"
+
+#: templates/registration/logged_out.html:6
+msgid "Login again"
+msgstr "Znova sa prihlásiť"
+
+#: templates/registration/login.html:11
+msgid "Your Username and Password didnt match - try again"
+msgstr "Zadali ste nesprávne meno alebo heslo - skúste znova"
+
+#: templates/registration/login.html:16
+msgid "User Name:"
+msgstr "Meno:"
+
+#: templates/registration/login.html:19
+msgid "Password:&nbsp;&nbsp;"
+msgstr "Heslo:"
+
+#: templates/rosetta/base.html:32
+msgid "Home"
+msgstr "Hlavná stránka"
+
+#: templates/rosetta/base.html:33
+msgid "Admin"
+msgstr "Admin"
+
+#: templates/web/addtranslation.html:5
+msgid "Add Translation"
+msgstr "Pridať preklad"
+
+#: templates/web/addtranslation.html:10
+msgid "Save"
+msgstr "Uložiť"
+
+#: templates/web/addvoucher.html:12
+msgid "Add Voucher:"
+msgstr "Pridať faktúru:"
+
+#: templates/web/annualreport.html:6 templates/web/annualreport.html.py:38
+#: templates/web/childfull.html:6 templates/web/childfull.html.py:66
+#: templates/web/freechildfull.html:9 templates/web/freechildfull.html:50
+#: templates/web/sponsorfull.html:7 templates/web/sponsorfull.html.py:38
+msgid "Back to index ..."
+msgstr "Späť na zoznam ..."
+
+#: templates/web/annualreport.html:9
+msgid "Annual Report for Name: "
+msgstr "Výročná správa pre:"
+
+#: templates/web/annualreport.html:11 templates/web/childfull.html:25
+#: templates/web/freechildfull.html:26 web/models.py:266 web/models.py:382
+#: web/models.py:456
+msgid "Area"
+msgstr "Oblasť"
+
+#: templates/web/annualreport.html:12 templates/web/childfull.html:26
+#: templates/web/freechildfull.html:27 web/models.py:268 web/views.py:204
+#: web/views.py:496 web/views.py:603
+msgid "Sex"
+msgstr "Pohlavie"
+
+#: templates/web/annualreport.html:13 templates/web/childfull.html:27
+#: templates/web/freechildfull.html:28 web/models.py:269
+msgid "Date of Birth"
+msgstr "Dátum narodenia"
+
+#: templates/web/annualreport.html:14 templates/web/childfull.html:28
+#: templates/web/freechildfull.html:29 web/models.py:60 web/models.py:270
+#: web/views.py:207 web/views.py:499 web/views.py:606
+msgid "Language"
+msgstr "Jazyk"
+
+#: templates/web/annualreport.html:15 templates/web/childfull.html:29
+#: templates/web/freechildfull.html:31 web/models.py:272 web/views.py:209
+#: web/views.py:501 web/views.py:608
+msgid "Religion"
+msgstr "Vierovyznanie"
+
+#: templates/web/annualreport.html:16 templates/web/childfull.html:30
+#: web/models.py:291 web/views.py:503 web/views.py:610
+msgid "Character"
+msgstr "Charakterové črty"
+
+#: templates/web/annualreport.html:17 templates/web/childfull.html:31
+#: templates/web/freechildfull.html:32 web/views.py:211 web/views.py:505
+#: web/views.py:612
+msgid "School standard"
+msgstr "Ročník"
+
+#: templates/web/annualreport.html:18 templates/web/childfull.html:32
+#: web/views.py:507 web/views.py:614
+msgid "School performance"
+msgstr "Prospech"
+
+#: templates/web/annualreport.html:19 templates/web/freechildfull.html:33
+msgid "Hobbies"
+msgstr "Záľuby"
+
+#: templates/web/annualreport.html:22 templates/web/childfull.html:41
+#: templates/web/freechildfull.html:39 templates/web/mailinglist.html:23
+#: templates/web/sponsorfull.html:18 web/models.py:251 web/models.py:284
+#: web/models.py:367 web/models.py:387 web/views.py:229 web/views.py:529
+#: web/views.py:635 web/views.py:829
+msgid "Remarks"
+msgstr "Poznámka"
+
+#: templates/web/annualreport.html:24
+msgid "Information of childs health"
+msgstr "Informácie o zdravotnom stave dieťaťa"
+
+#: templates/web/annualreport.html:25 web/models.py:410 web/views.py:224
+#: web/views.py:517
+msgid "Health"
+msgstr "Zdravotný stav"
+
+#: templates/web/annualreport.html:26 web/views.py:518
+msgid "Height"
+msgstr "Výška"
+
+#: templates/web/annualreport.html:27 web/views.py:519
+msgid "Weight"
+msgstr "Váha"
+
+#: templates/web/annualreport.html:28 web/models.py:173 web/views.py:520
+msgid "Long term diagnosis"
+msgstr "Dlhodobé diagnózy"
+
+#: templates/web/annualreport.html:29 web/models.py:408
+msgid "Medical Remarks"
+msgstr "Poznámky lekára"
+
+#: templates/web/annualreport.html:31
+msgid "No medical report available"
+msgstr "Správa lekára nie je k dispozícii"
+
+#: templates/web/annualreport.html:35 templates/web/areafull.html:32
+#: templates/web/childfull.html:63 templates/web/freechildfull.html:47
+#: templates/web/sponsorfull.html:35
+msgid "Item Not Found"
+msgstr "Položka nebola nájdená"
+
+#: templates/web/areafull.html:7 templates/web/bulkmail.html:6
+#: templates/web/freechildfull.html:12 templates/web/freechildren.html:7
+#: templates/web/mailinglist.html:5
+#, fuzzy
+msgid "Project: "
+msgstr "Sponzori projektu"
+
+#: templates/web/areafull.html:8
+#, fuzzy
+msgid "Area: "
+msgstr "Oblasti:"
+
+#: templates/web/areas.html:7
+msgid "Areas:"
+msgstr "Oblasti:"
+
+#: templates/web/areas.html:13
+msgid "No areas entered."
+msgstr "V databáze nie je žiadna oblasť"
+
+#: templates/web/backup.html:6
+msgid "Download Backup"
+msgstr "Stiahni zálohu"
+
+#: templates/web/bulkmail.html:6
+msgid "Bulkmailer"
+msgstr "Hromadný mail"
+
+#: templates/web/bulkmail.html:15 templates/web/childsearch.html:15
+#: templates/web/sponsorsearch.html:10
+msgid "Search"
+msgstr "Hľadať"
+
+#: templates/web/bulkmail.html:17 templates/web/bulkmail.html.py:37
+#: templates/web/childsearch.html:17 templates/web/sponsorsearch.html:13
+msgid "Select All"
+msgstr "Vybrať všetky položky"
+
+#: templates/web/bulkmail.html:17 templates/web/bulkmail.html.py:37
+#: templates/web/childsearch.html:17 templates/web/sponsorsearch.html:13
+msgid "Unselect All"
+msgstr "Zrušiť výber všetkých položiek"
+
+#: templates/web/bulkmail.html:22
+msgid "Send Mail"
+msgstr "Poslať mail"
+
+#: templates/web/bulkmail.html:23 templates/web/childfull.html:44
+#: web/models.py:363 web/models.py:381 web/models.py:441 web/views.py:178
+msgid "Sponsor"
+msgstr "Sponzor"
+
+#: templates/web/bulkmail.html:24 templates/web/mailinglist.html:40
+#: templates/web/mailinglist.html.py:60 templates/web/sponsorfull.html:15
+#: web/models.py:246 web/views.py:828
+msgid "Country"
+msgstr "Štát"
+
+#: templates/web/bulkmail.html:50
+msgid "Mail selected"
+msgstr "Poslať mail zvoleným sponzorom"
+
+#: templates/web/childfull.html:8 templates/web/freechildfull.html:13
+#: templates/web/sponsorfull.html:10
+msgid "Name: "
+msgstr "Meno:"
+
+#: templates/web/childfull.html:33 web/models.py:111 web/models.py:119
+#: web/models.py:298 web/views.py:226 web/views.py:509 web/views.py:616
+#, fuzzy
+msgid "Free time"
+msgstr "Deti bez sponzorov"
+
+#: templates/web/childfull.html:34 web/views.py:620
+msgid "Male guardian type"
+msgstr ""
+
+#: templates/web/childfull.html:35
+msgid "Male guardians Name"
+msgstr ""
+
+#: templates/web/childfull.html:36
+msgid "Male guardians Job"
+msgstr ""
+
+#: templates/web/childfull.html:37 web/views.py:626
+msgid "Female guardian type"
+msgstr ""
+
+#: templates/web/childfull.html:38
+#, fuzzy
+msgid "Female guardians Name"
+msgstr "Meno otca"
+
+#: templates/web/childfull.html:39
+msgid "Female guardian Job"
+msgstr ""
+
+#: templates/web/childfull.html:40 templates/web/freechildfull.html:38
+#: web/models.py:354 web/views.py:221 web/views.py:633
+msgid "Siblings"
+msgstr "Súrodenci"
+
+#: templates/web/childfull.html:48 templates/web/sponsorfull.html:24
+#: web/forms.py:34 web/views.py:827
+msgid "From"
+msgstr "Od"
+
+#: templates/web/childfull.html:50 templates/web/sponsorfull.html:26
+#: web/forms.py:36
+msgid "To"
+msgstr "Do"
+
+#: templates/web/childfull.html:56
+msgid "Does not have a sponsor"
+msgstr "Nemá sponzora"
+
+#: templates/web/childgallery.html:8 templates/web/children.html:7
+msgid "Children:"
+msgstr "Dieťa:"
+
+#: templates/web/childgallery.html:21 templates/web/children.html:16
+msgid "No children entered."
+msgstr "V databáze nie je žiadne dieťa"
+
+#: templates/web/children.html:11
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: templates/web/children.html:12 templates/web/childsearch.html:28
+msgid "Annual Report"
+msgstr "Výročná správa"
+
+#: templates/web/childrenofarea.html:5
+msgid "Choose children of area:"
+msgstr "Vyberte deti z oblasti:"
+
+#: templates/web/childrenofarea.html:5
+msgid "to print"
+msgstr "tlačiť"
+
+#: templates/web/childrenofarea.html:9 templates/web/childrenofarea.html:11
+#: web/models.py:364 web/models.py:399 web/models.py:426 web/views.py:179
+msgid "Child"
+msgstr "Dieťa"
+
+#: templates/web/childrenofarea.html:14 templates/web/childrenofarea.html:16
+msgid "Annual"
+msgstr "Výročná"
+
+#: templates/web/childrenofarea.html:19 templates/web/childrenofarea.html:21
+msgid "Child_english"
+msgstr "Dieťa_po anglicky"
+
+#: templates/web/childrenofarea.html:24 templates/web/childrenofarea.html:26
+msgid "Annual_english"
+msgstr "Výročná_po anglicky"
+
+#: templates/web/childsearch.html:9
+msgid "Details and Printing"
+msgstr "Podrobnosti a tlač"
+
+#: templates/web/childsearch.html:10 web/models.py:207
+#, fuzzy
+msgid "Project"
+msgstr "Sponzori projektu"
+
+#: templates/web/childsearch.html:27
+msgid "Child Report"
+msgstr "Správa o dieťati"
+
+#: templates/web/childsearch.html:29
+msgid "Child Story"
+msgstr "Príbeh dieťaťa"
+
+#: templates/web/chooseproject.html:7 templates/web/chooseprojectfree.html:7
+#: templates/web/chooseprojectstats.html:7
+#, fuzzy
+msgid "Choose project:"
+msgstr "Vyberte zo zoznamu sponzorov:"
+
+#: templates/web/chooseproject.html:25 templates/web/chooseprojectfree.html:12
+#: templates/web/chooseprojectstats.html:12
+msgid "You do not have permission to view any projects"
+msgstr ""
+
+#: templates/web/down.html:5 web/models.py:474 web/views.py:35
+msgid "Downloads"
+msgstr "Na stiahnutie"
+
+#: templates/web/down.html:26
+msgid "No files available for download"
+msgstr "Žiadne súbory na stiahnutie nie sú k dispozícii."
+
+#: templates/web/edittranslation.html:5
+msgid "Edit Translation"
+msgstr "Preklad"
+
+#: templates/web/edittranslation.html:10
+msgid "Update"
+msgstr "Aktualizovať"
+
+#: templates/web/edituser.html:7
+msgid "Please correct the following errors:"
+msgstr "Opravte prosím nasledujúce chyby:"
+
+#: templates/web/edituser.html:14 web/models.py:239 web/views.py:826
+msgid "First Name"
+msgstr "Meno"
+
+#: templates/web/edituser.html:18 web/models.py:241 web/views.py:826
+msgid "Last Name"
+msgstr "Priezvisko"
+
+#: templates/web/edituser.html:22
+msgid "New Password"
+msgstr "Nové heslo"
+
+#: templates/web/edituser.html:26
+msgid "Repeat Password"
+msgstr "Zadajte heslo znova"
+
+#: templates/web/freechildfull.html:34 web/views.py:213
+msgid "Fathers Name"
+msgstr "Meno otca"
+
+#: templates/web/freechildfull.html:35 web/views.py:215
+msgid "Fathers Job"
+msgstr "Zamestnanie otca"
+
+#: templates/web/freechildfull.html:36 web/views.py:217
+msgid "Mothers Name"
+msgstr "Meno matky"
+
+#: templates/web/freechildfull.html:37 web/views.py:219
+msgid "Mothers Job"
+msgstr "Zamestnanie matky"
+
+#: templates/web/freechildren.html:8
+msgid "Children without a sponsor: "
+msgstr "Deti bez sponzora:"
+
+#: templates/web/freechildren.html:9
+msgid "Number of Free Children: "
+msgstr "Počet detí bez sponzorov:"
+
+#: templates/web/freechildren.html:25
+msgid "No free children."
+msgstr "Žiadne deti bez sponzorov"
+
+#: templates/web/mail.txt:2 templates/web/success.html:6
+msgid "Dear"
+msgstr "Milá/á"
+
+#: templates/web/mailinglist.html:5
+msgid "Sponsorship Letter"
+msgstr "Korešpondencia so sponzormi - "
+
+#: templates/web/mailinglist.html:5 web/views.py:38
+msgid "Mailing List"
+msgstr "Adresár"
+
+#: templates/web/mailinglist.html:10 templates/web/mailinglist.html.py:73
+#: templates/web/sponsorsearch.html:24
+msgid "Print"
+msgstr "Tlač"
+
+#: templates/web/mailinglist.html:16
+msgid "Id"
+msgstr "IČ"
+
+#: templates/web/mailinglist.html:17
+msgid "FirstName "
+msgstr "Meno"
+
+#: templates/web/mailinglist.html:18
+msgid "Surname "
+msgstr "Priezvisko"
+
+#: templates/web/mailinglist.html:19
+msgid "Sponsorships "
+msgstr "Sponzoruje"
+
+#: templates/web/mailinglist.html:20
+msgid "From "
+msgstr "Od"
+
+#: templates/web/mailinglist.html:21
+msgid "Country "
+msgstr "Štát"
+
+#: templates/web/mailinglist.html:22
+msgid "Address "
+msgstr "Adresa"
+
+#: templates/web/mailinglist.html:32 web/views.py:839
+msgid "children"
+msgstr "Deti"
+
+#: templates/web/mailinglist.html:37 templates/web/mailinglist.html.py:57
+#: templates/web/sponsorfull.html:12 web/models.py:243
+msgid "Street Address"
+msgstr "Ulica"
+
+#: templates/web/mailinglist.html:38 templates/web/mailinglist.html.py:58
+#: templates/web/sponsorfull.html:13
+msgid "City"
+msgstr "Mesto"
+
+#: templates/web/mailinglist.html:39 templates/web/mailinglist.html.py:59
+#: templates/web/sponsorfull.html:14 web/models.py:245
+msgid "Postal Code"
+msgstr "PSČ"
+
+#: templates/web/mailinglist.html:41 templates/web/mailinglist.html.py:61
+#: templates/web/sponsorfull.html:16
+msgid "Phone numbers"
+msgstr "Telefónne čísla"
+
+#: templates/web/mailinglist.html:42 templates/web/mailinglist.html.py:62
+#: templates/web/sponsorfull.html:17 web/models.py:250
+msgid "Email Address"
+msgstr "Email"
+
+#: templates/web/sponsorfull.html:20 templates/web/statistics.html:21
+#: web/models.py:371 web/views.py:827
+msgid "Sponsorships"
+msgstr "Sponzorstvá detí"
+
+#: templates/web/sponsorfull.html:32
+msgid "Has not sponsored any children"
+msgstr "Nesponzoroval žiadne dieťa"
+
+#: templates/web/sponsors.html:6
+msgid "Sponsors:"
+msgstr "Sponzori:"
+
+#: templates/web/sponsors.html:13
+msgid "No sponsors entered."
+msgstr "V databáze niesú žiadni sponzori"
+
+#: templates/web/sponsorsearch.html:5
+#, fuzzy
+msgid "Choose sponsors in: "
+msgstr "Vyberte zo zoznamu sponzorov:"
+
+#: templates/web/statistics.html:6
+#, fuzzy
+msgid "Statistics for: "
+msgstr "Štatistiky"
+
+#: templates/web/statistics.html:9
+msgid "Head"
+msgstr "Položka"
+
+#: templates/web/statistics.html:10
+msgid "Number"
+msgstr "Počet"
+
+#: templates/web/statistics.html:14 web/models.py:256 web/views.py:34
+msgid "Sponsors"
+msgstr "Sponzori"
+
+#: templates/web/statistics.html:28
+msgid "Project sponsors"
+msgstr "Sponzori projektu"
+
+#: templates/web/statistics.html:35 web/models.py:303 web/views.py:31
+msgid "Children"
+msgstr "Deti"
+
+#: templates/web/statistics.html:42
+msgid "Girls"
+msgstr "Dievčatá"
+
+#: templates/web/statistics.html:49
+msgid "Boys"
+msgstr "Chlapci"
+
+#: templates/web/statistics.html:56
+msgid "Free children"
+msgstr "Deti bez sponzorov"
+
+#: templates/web/statistics.html:64
+#, python-format
+msgid "Children in %(area_name)s"
+msgstr "Deti z oblasti %(area_name)s"
+
+#: templates/web/statistics.html:71
+msgid "Print sponsor and child statistics"
+msgstr "Tlač štatistík o sponzoroch a deťoch"
+
+#: templates/web/success.html:4
+msgid "Details Changed"
+msgstr "Zmenené údaje"
+
+#: templates/web/success.html:6
+msgid "Your details have been successfully changed"
+msgstr "Vaše údaje boli úspešne zmenené"
+
+#: templates/web/success.html:8
+msgid "something went wrong"
+msgstr "proces zlyhal"
+
+#: templates/web/trans_db_strings.html:6
+#, fuzzy
+msgid "Untranslated string summary"
+msgstr "Iba nepreložené"
+
+#: templates/web/trans_db_strings.html:18
+#, python-format
+msgid "%(field)s"
+msgstr ""
+
+#: templates/web/trans_db_strings.html:21
+#, fuzzy
+msgid "Translate"
+msgstr "Preklad"
+
+#: templates/web/translation.html:4 templates/web/translation.html.py:15
+#: templates/web/translation.html:49 templates/web/translation.html.py:82
+#: templates/web/translation.html:116 templates/web/translation.html.py:149
+#: web/views.py:39
+msgid "Translation"
+msgstr "Preklad"
+
+#: templates/web/translation.html:14 templates/web/translation.html.py:48
+#: templates/web/translation.html:81 templates/web/translation.html.py:115
+#: templates/web/translation.html:148
+msgid "English Term"
+msgstr "Anglický názov"
+
+#: templates/web/translation.html:19 templates/web/translation.html.py:53
+#: templates/web/translation.html:86 templates/web/translation.html.py:120
+#: templates/web/translation.html:153
+msgid "No Items Found"
+msgstr "Položka nebola nájdená"
+
+#: templates/web/translation_choice.html:5
+msgid "Choose translation values"
+msgstr ""
+
+#: templates/web/translation_choice.html:7
+#, fuzzy
+msgid "Translate catalog strings"
+msgstr "Iba preložené"
+
+#: templates/web/translation_choice.html:8
+msgid "Translate database strings"
+msgstr ""
+
+#: web/forms.py:38
+msgid "Passive children"
+msgstr "Pasívne dieťa"
+
+#: web/forms.py:49
+msgid "Last name contains"
+msgstr "Priezvisko obsahuje"
+
+#: web/forms.py:65
+msgid "Name contains the string:"
+msgstr "Meno obsahuje znaky:"
+
+#: web/forms.py:69
+msgid "Subject"
+msgstr "Predmet"
+
+#: web/forms.py:70
+msgid "Message/Mail"
+msgstr "Správa"
+
+#: web/forms.py:72
+msgid "Attached file"
+msgstr "Príloha"
+
+#: web/models.py:9
+msgid "Christian"
+msgstr "kresťan"
+
+#: web/models.py:10
+msgid "Muslim"
+msgstr "moslim"
+
+#: web/models.py:11
+msgid "Hindu"
+msgstr "hinduista"
+
+#: web/models.py:12
+msgid "Buddhist"
+msgstr "budhista"
+
+#: web/models.py:13 web/models.py:20 web/models.py:28
+msgid "Other"
+msgstr "Iné"
+
+#: web/models.py:16
+#, fuzzy
+msgid "Father"
+msgstr "Zamestnanie otca"
+
+#: web/models.py:17
+msgid "Grandfather"
+msgstr ""
+
+#: web/models.py:18
+#, fuzzy
+msgid "Brother"
+msgstr "Iné"
+
+#: web/models.py:19
+msgid "Uncle"
+msgstr ""
+
+#: web/models.py:21 web/models.py:29 web/models.py:36
+msgid "-"
+msgstr ""
+
+#: web/models.py:24
+#, fuzzy
+msgid "Mother"
+msgstr "Zamestnanie matky"
+
+#: web/models.py:25
+msgid "Grandmother"
+msgstr ""
+
+#: web/models.py:26
+msgid "Sister"
+msgstr ""
+
+#: web/models.py:27
+msgid "Aunt"
+msgstr ""
+
+#: web/models.py:33
+msgid "Good"
+msgstr "dobrý"
+
+#: web/models.py:34
+msgid "Average"
+msgstr "priemerný"
+
+#: web/models.py:35
+msgid "Poor"
+msgstr "slabý"
+
+#: web/models.py:40
+msgid "Friendly"
+msgstr "Priateľské"
+
+#: web/models.py:41
+msgid "Talkative"
+msgstr "Zhovorčivé"
+
+#: web/models.py:42
+msgid "Quiet"
+msgstr "Tiché"
+
+#: web/models.py:43
+msgid "Ambitious"
+msgstr "Ambiciózne"
+
+#: web/models.py:47
+msgid "Boy"
+msgstr "chlapec"
+
+#: web/models.py:48
+msgid "Girl"
+msgstr "dievča"
+
+#: web/models.py:62
+msgid "Language Code"
+msgstr "Kód jazyka"
+
+#: web/models.py:69
+msgid "Language already exists"
+msgstr "Tento jazyk už existuje"
+
+#: web/models.py:72
+msgid "Languages"
+msgstr "Jazyky"
+
+#: web/models.py:73
+msgid "language"
+msgstr "jazyk"
+
+#: web/models.py:83 web/models.py:297
+msgid "School Standard"
+msgstr "Ročník"
+
+#: web/models.py:89
+msgid "School standard already exists"
+msgstr "Ročník v škole"
+
+#: web/models.py:92
+msgid "School standards"
+msgstr "Ročníky v škole"
+
+#: web/models.py:93
+msgid "school standard"
+msgstr "ročník"
+
+#: web/models.py:99 web/models.py:349 web/views.py:202 web/views.py:493
+#: web/views.py:601
+msgid "Name"
+msgstr "Meno"
+
+#: web/models.py:102
+msgid "Doctors"
+msgstr "Lekári"
+
+#: web/models.py:103
+msgid "doctor"
+msgstr "lekára"
+
+#: web/models.py:116
+msgid "Hobby already exists"
+msgstr "Táto záľuba už existuje"
+
+#: web/models.py:120
+msgid "free time"
+msgstr ""
+
+#: web/models.py:129
+msgid "Character Type"
+msgstr "Charakterová črta"
+
+#: web/models.py:134
+msgid "Character already exists"
+msgstr "Charakterové črty"
+
+#: web/models.py:137
+msgid "Character types"
+msgstr "Charakterové črty"
+
+#: web/models.py:138
+msgid "character type"
+msgstr "charakterovú črtu"
+
+#: web/models.py:146 web/models.py:155
+msgid "Job"
+msgstr "zamestnanie"
+
+#: web/models.py:151
+msgid "Job already exists"
+msgstr "Táto práca už existuje"
+
+#: web/models.py:154
+msgid "Jobs"
+msgstr "Zamestnania"
+
+#: web/models.py:164
+msgid "Longtermdiagnosis"
+msgstr "Dlhodobé diagnózy"
+
+#: web/models.py:170
+msgid "Long term diagnosis already exists"
+msgstr "Dlhodobé diagnózy už existujú"
+
+#: web/models.py:174
+msgid "long term diagnosis"
+msgstr "dlhodobé diagnózy"
+
+#: web/models.py:183
+msgid "Short term sickness"
+msgstr ""
+
+#: web/models.py:189
+#, fuzzy
+msgid "Short term sickness already exists"
+msgstr "Dlhodobé diagnózy už existujú"
+
+#: web/models.py:192 web/models.py:193
+msgid "Short term sicknesses"
+msgstr ""
+
+#: web/models.py:202
+#, fuzzy
+msgid "Project Code Number"
+msgstr "Číselný kód oblasti"
+
+#: web/models.py:203
+#, fuzzy
+msgid "Project Name"
+msgstr "Názov oblasti"
+
+#: web/models.py:204
+#, fuzzy
+msgid "Project admins"
+msgstr "Sponzori projektu"
+
+#: web/models.py:206
+#, fuzzy
+msgid "Projects"
+msgstr "Sponzori projektu"
+
+#: web/models.py:216
+msgid "Area Code Number"
+msgstr "Číselný kód oblasti"
+
+#: web/models.py:217
+msgid "Area Name"
+msgstr "Názov oblasti"
+
+#: web/models.py:218
+msgid "Area Description"
+msgstr "Opis oblasti"
+
+#: web/models.py:220
+msgid "Picture of Area"
+msgstr "Fotka oblasti"
+
+#: web/models.py:222 web/models.py:252 web/models.py:293 web/models.py:368
+#: web/models.py:388
+msgid "Is active"
+msgstr "Aktívne"
+
+#: web/models.py:227 web/views.py:33
+msgid "Areas"
+msgstr "Oblasti"
+
+#: web/models.py:228
+msgid "area"
+msgstr "oblasť"
+
+#: web/models.py:238
+msgid "Sponsor Code Number"
+msgstr "Číselný kód sponzora"
+
+#: web/models.py:242
+msgid "Additional names"
+msgstr ""
+
+#: web/models.py:244
+msgid "City or Town"
+msgstr "Mesto"
+
+#: web/models.py:248
+msgid "Phone Numbers"
+msgstr "Telefónne čísla"
+
+#: web/models.py:257
+msgid "sponsor"
+msgstr "sponzora"
+
+#: web/models.py:265
+msgid "Child Code Number"
+msgstr "Číselný kód dieťaťa"
+
+#: web/models.py:267
+msgid "Child Name"
+msgstr "Meno dieťaťa"
+
+#: web/models.py:274
+msgid "Male Guardian type"
+msgstr ""
+
+#: web/models.py:276
+msgid "Male Guardian Name"
+msgstr ""
+
+#: web/models.py:277
+msgid "Male Guardian Job"
+msgstr ""
+
+#: web/models.py:279
+msgid "Female Guardian type"
+msgstr ""
+
+#: web/models.py:281
+msgid "Female Guardian Name"
+msgstr ""
+
+#: web/models.py:282
+msgid "Female Guardian Job"
+msgstr ""
+
+#: web/models.py:285
+msgid "Picture of Child"
+msgstr "Fotka dieťaťa"
+
+#: web/models.py:288
+msgid "Picture of Family"
+msgstr "Fotka rodiny"
+
+#: web/models.py:294
+msgid "School Performance"
+msgstr "Prospech v škole"
+
+#: web/models.py:304
+msgid "child"
+msgstr "dieťa"
+
+#: web/models.py:340 web/views.py:705
+msgid "Child Stories"
+msgstr "Príbehy detí"
+
+#: web/models.py:350
+msgid "Gender"
+msgstr ""
+
+#: web/models.py:351
+#, fuzzy
+msgid "Year of birth"
+msgstr "Dátum narodenia"
+
+#: web/models.py:365 web/models.py:383
+msgid "Start Date"
+msgstr "Od"
+
+#: web/models.py:366 web/models.py:384
+msgid "End Date"
+msgstr "Do"
+
+#: web/models.py:372
+msgid "sponsorship"
+msgstr "sponzorstvo"
+
+#: web/models.py:385
+msgid "Number of children"
+msgstr "Počet detí"
+
+#: web/models.py:391
+#, fuzzy
+msgid "Community Sponsorships"
+msgstr "Sponzorstvá projektu"
+
+#: web/models.py:392
+#, fuzzy
+msgid "Community sponshorship"
+msgstr "sponzorstvo projektu"
+
+#: web/models.py:400 web/models.py:427 web/models.py:442 web/models.py:457
+#: web/views.py:531
+msgid "Date"
+msgstr "Dátum"
+
+#: web/models.py:401
+msgid "Height in cms"
+msgstr "Výška v cm"
+
+#: web/models.py:402
+msgid "Weight in kgs"
+msgstr "Váha v kg"
+
+#: web/models.py:405
+msgid "Longterm Diagnosis"
+msgstr "Dlhodobé diagnózy"
+
+#: web/models.py:412
+msgid "Doctor"
+msgstr "Lekár"
+
+#: web/models.py:417
+msgid "Checkups"
+msgstr "Lekárske prehliadky"
+
+#: web/models.py:418
+msgid "checkup"
+msgstr "prehliadku"
+
+#: web/models.py:428 web/models.py:443 web/models.py:458
+msgid "Note"
+msgstr "Poznámka"
+
+#: web/models.py:431
+msgid "Notes on child"
+msgstr "Poznámky o dieťati"
+
+#: web/models.py:432
+msgid "note on child"
+msgstr "poznámku o dieťati"
+
+#: web/models.py:446
+msgid "Notes on sponsor"
+msgstr "Poznámky o sponzorovi"
+
+#: web/models.py:447
+msgid "note on sponsor"
+msgstr "poznámku o sponzorovi"
+
+#: web/models.py:461
+msgid "Notes on area"
+msgstr "Poznámky o oblasti"
+
+#: web/models.py:462
+msgid "note on area"
+msgstr "poznámku o oblasti"
+
+#: web/models.py:469
+msgid "Name of Document"
+msgstr "Názov dokumentu"
+
+#: web/models.py:471
+msgid "File"
+msgstr "Súbor"
+
+#: web/models.py:475
+msgid "download"
+msgstr "súbor"
+
+#: web/views.py:32
+msgid "Free Children"
+msgstr "Deti bez sponzorov"
+
+#: web/views.py:36 web/views.py:193
+msgid "Statistics"
+msgstr "Štatistiky"
+
+#: web/views.py:37
+msgid "Mail sponsors"
+msgstr "Email sponzorom"
+
+#: web/views.py:178
+msgid "Sponsor Number"
+msgstr "Číslo sponzora"
+
+#: web/views.py:179
+msgid "Child Number"
+msgstr "Číslo dieťaťa"
+
+#: web/views.py:205 web/views.py:497 web/views.py:604
+msgid "Date of birth"
+msgstr "Dátum narodenia"
+
+#: web/views.py:286
+msgid "Child report"
+msgstr "Správa o dieťati"
+
+#: web/views.py:332
+msgid "Sponsors List"
+msgstr "Sponzorstvá detí"
+
+#: web/views.py:478 web/views.py:548 web/views.py:667
+msgid "Annual Sponsorship child report"
+msgstr "Výročná správa o dieťati pre sponzora"
+
+#: web/views.py:483 web/views.py:583
+msgid "General information about the child"
+msgstr "Všeobecné informácie o dieťati"
+
+#: web/views.py:485
+msgid "Information about the child's health"
+msgstr "Informácie o zdravotnom stave dieťaťa"
+
+#: web/views.py:494
+msgid "Child number"
+msgstr "Číslo dieťaťa"
+
+#: web/views.py:495 web/views.py:602
+msgid "Village area"
+msgstr "Oblasť"
+
+#: web/views.py:504 web/views.py:611 web/views.py:634
+msgid ", "
+msgstr ""
+
+#: web/views.py:521
+msgid "Medical remarks"
+msgstr "Poznámky lekára"
+
+#: web/views.py:578
+#, fuzzy
+msgid "Sponsored child report"
+msgstr "Výročná správa o dieťati pre sponzora"
+
+#: web/views.py:585
+#, fuzzy
+msgid "Child story"
+msgstr "Príbeh dieťaťa"
+
+#: web/views.py:587
+#, fuzzy, python-format
+msgid "Dated %s"
+msgstr "Dátum"
+
+#: web/views.py:622
+#, fuzzy
+msgid "Male guardian name"
+msgstr "Meno otca"
+
+#: web/views.py:624
+#, fuzzy
+msgid "Male guardian job"
+msgstr "Meno otca"
+
+#: web/views.py:628
+#, fuzzy
+msgid "Female guardian name"
+msgstr "Meno otca"
+
+#: web/views.py:630
+#, fuzzy
+msgid "Female guardian job"
+msgstr "Meno otca"
+
+#: web/views.py:823
+msgid "List of sponsors"
+msgstr "poznámka o sponzorovi"
+
+#: web/views.py:828
+msgid "Address"
+msgstr "Email"
+
+#: web/views.py:864
+#, fuzzy, python-format
+msgid "%s Sponsor List"
+msgstr "Sponzorstvá detí"
+
+#: web/management/commands/send_untrans_string_status.py:26
+#, python-format
+msgid "%(project_name)s Untranslated String Status"
+msgstr ""
+
+#~ msgid "Area Name: "
+#~ msgstr "Názov oblasti:"
+
+#~ msgid "Receipt"
+#~ msgstr "Potvrdenka"
+
+#~ msgid "Payment"
+#~ msgstr "Platba"
+
+#~ msgid "Hobby"
+#~ msgstr "Záľuby"
+
+#~ msgid "hobby"
+#~ msgstr "záľubu"
+
+#~ msgid "Medical remarks already exists"
+#~ msgstr "Poznámky lekára už existujú"
+
+#~ msgid "medical remarks"
+#~ msgstr "poznámku lekára"
+
+#~ msgid "Is Project Sponsor"
+#~ msgstr "Je sponzorom projektu"
+
+#~ msgid "Father Name"
+#~ msgstr "Meno otca"
+
+#~ msgid "Mother Name"
+#~ msgstr "Meno matky"
+
+#~ msgid "Page not found"
+#~ msgstr "Strana nebola nájdená"
+
+#~ msgid "We're sorry, but the requested page could not be found."
+#~ msgstr "Hľadaná stránka nebola nájdena"
+
+#~ msgid "Server error"
+#~ msgstr "Chyba na serveri"
+
+#~ msgid "Server error (500)"
+#~ msgstr "Chyba na serveri (500)"
+
+#~ msgid "Server Error <em>(500)</em>"
+#~ msgstr "Chyba na serveri <em>(500)</em>"
+
+#~ msgid ""
+#~ "There's been an error. It's been reported to the site administrators via "
+#~ "e-mail and should be fixed shortly. Thanks for your patience."
+#~ msgstr ""
+#~ "Nastala chyba. Emailom bola oznámená administrátorovi stránky, ktorý sa "
+#~ "ju pokúsi v čo najkratšom čase opraviť. Ďakujeme za porozumenie."
+
+#~ msgid "Welcome,"
+#~ msgstr "Vitajte"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentácia"
+
+#~ msgid "Change password"
+#~ msgstr "Nové heslo"
+
+#~ msgid "Log out"
+#~ msgstr "Odhlásiť sa"
+
+#~ msgid "Django site admin"
+#~ msgstr "Django stránka pre Admin"
+
+#, fuzzy
+#~ msgid "Django administration ({{ SHORT_PROJECT_NAME }})"
+#~ msgstr "Administrácia Django (MVDP)"
+
+#~ msgid "MVDP Sponsor List"
+#~ msgstr "Zoznam sponzorov"
+
+#~ msgid "Language selection"
+#~ msgstr "Jazyky"
+
+#~ msgid "Progress"
+#~ msgstr "Progres"
+
+#~ msgid "Messages"
+#~ msgstr "Správy"
+
+#~ msgid "Fuzzy"
+#~ msgstr "Nejasné"
+
+#~ msgid "Obsolete"
+#~ msgstr "Zastaralé"
+
+#~ msgid "Nothing to translate!"
+#~ msgstr "Všetko je preložené."
+
+#~ msgid ""
+#~ "You haven't specified any languages in your settings file, or haven't yet "
+#~ "generated a batch of translation catalogs."
+#~ msgstr ""
+#~ "V nastavení súboru ste nešpecifikovali jazyk, alebo nevygenerovali balík "
+#~ "na preklad."
+
+#~ msgid ""
+#~ "Please refer to <a href=\"%(i18n_doc_link)s\">Django's I18N "
+#~ "documentation</a> for a guide on how to set up internationalization for "
+#~ "your project."
+#~ msgstr ""
+#~ "V Django dokumentácii <a href=\"%(i18n_doc_link)s\"> I18N </a> nájdete "
+#~ "postup, ako nastaviť medzinárodné parametre vášho projektu."
+
+#~ msgid "Pick another file"
+#~ msgstr "Vybrať iný jazyk"
+
+#~ msgid "Download this catalog"
+#~ msgstr "Stiahnúť súbor s prekladom"
+
+#~ msgid "Progress: %(percent_translated)s%%"
+#~ msgstr "Preložené na %(percent_translated)s%%."
+
+#~ msgid "File is read-only: download the file when done editing!"
+#~ msgstr ""
+#~ "Tento súbor je iba na čítanie a nedá sa zmeniť. Po vykonaní zmien si "
+#~ "súbor stiahnite."
+
+#~ msgid ""
+#~ "Some items in your last translation block couldn't be saved: this usually "
+#~ "happens when the catalog file changes on disk after you last loaded it."
+#~ msgstr ""
+#~ "Niektoré položky z posledného bloku prekladu sa nepodarilo uložiť. "
+#~ "Zvyčajne sa tak stane, ak sa súbor na disku od doby stiahnutia zmenil."
+
+#~ msgid "Translate into %(rosetta_i18n_lang_name)s"
+#~ msgstr " %(rosetta_i18n_lang_name)s preklad"
+
+#~ msgid "Display:"
+#~ msgstr "Zobraziť:"
+
+#~ msgid "Fuzzy only"
+#~ msgstr "Iba nejasné"
+
+#~ msgid "All"
+#~ msgstr "Všetko"
+
+#~ msgid "Go"
+#~ msgstr "Hľadať"
+
+#~ msgid "Original"
+#~ msgstr "Originál"
+
+#~ msgid "Occurrences(s)"
+#~ msgstr "Počet výskytov"
+
+#~ msgid "suggest"
+#~ msgstr "návrh prekladu"
+
+#~ msgid "%(more_count)s more"
+#~ msgid_plural "%(more_count)s more"
+#~ msgstr[0] "ešte %(more_count)s"
+#~ msgstr[1] "ešte %(more_count)s"
+
+#~ msgid "Save and translate next block"
+#~ msgstr "Uložiť a prejsť na ďalšiu stranu"
+
+#~ msgid "Skip to page:"
+#~ msgstr "Prejsť na stranu:"
+
+#~ msgid "Displaying:"
+#~ msgstr "Zobrazené:"
+
+#~ msgid "%(hits)s/%(message_number)s message"
+#~ msgid_plural "%(hits)s/%(message_number)s messages"
+#~ msgstr[0] "%(hits)s/%(message_number)s správu"
+#~ msgstr[1] "%(hits)s/%(message_number)s správ"
+
+#~ msgid "Information of child`s health"
+#~ msgstr "Informácie o zdravotnom stave dieťaťa"
+
+#~ msgid "Untranslated items:"
+#~ msgstr "Položky na preklad:"
+
+#~ msgid "Print selected sponsor labels"
+#~ msgstr "Tlačiť štítky pre všetkých sponzorov"
+
+#~ msgid "Name of account"
+#~ msgstr "Názov účtu"
+
+#~ msgid "Receipt or Payment"
+#~ msgstr "Potvrdenky alebo platby"
+
+#~ msgid "Heads of Account"
+#~ msgstr "Hlavička pre účet"
+
+#~ msgid "Name of cost center"
+#~ msgstr "Názov pokladne"
+
+#~ msgid "Cost Centers"
+#~ msgstr "Pokladne"
+
+#~ msgid "Unique serial number"
+#~ msgstr "Špeciálne sériove číslo"
+
+#~ msgid "Cost Center"
+#~ msgstr "Pokladňa"
+
+#~ msgid "Amount"
+#~ msgstr "Suma"
+
+#~ msgid "Entered By"
+#~ msgstr "Zadala osoba"
+
+#~ msgid "Comments"
+#~ msgstr "Komentáre"
+
+#~ msgid "Vouchers"
+#~ msgstr "Faktúry"
+
+#~ msgid "Model Name"
+#~ msgstr "Meno matky"
+
+#~ msgid "Auth"
+#~ msgstr "Auth"
+
+#~ msgid "Sites"
+#~ msgstr "Stránky"
+
+#~ msgid "Web"
+#~ msgstr "Web"
+
+#~ msgid "Select child to change"
+#~ msgstr "Označ deti na úpravy"
+
+#~ msgid "Choose sponsors"
+#~ msgstr "Vyber sponzorov"

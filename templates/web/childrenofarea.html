@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block centercontent %}
+{% if f %}
+<h1>{% trans "Choose children of area:" %} {{ area.name }} {% trans "to print" %}</h1>
+	<form method="POST" action="./">{% csrf_token %}
+    		{{ f }}
+<p>{% ifequal request.LANGUAGE_CODE "fi" %}
+	<input type="image"  src="/sitemedia/pics/Lapsi.jpg" value={% trans "Child" %} name="cr"/>
+{% else %}
+	<input type="image"  src="/sitemedia/pics/child.jpg" value={% trans "Child" %} name="cr"/>
+{% endifequal %}
+{% ifequal request.LANGUAGE_CODE "fi" %}
+	<input type="image" src="/sitemedia/pics/Vuosiraportti.jpg" value={% trans "Annual" %} name="ar"/>
+{% else %}
+	<input type="image" src="/sitemedia/pics/annual.jpg" value={% trans "Annual" %} name="ar"/>
+{% endifequal %}
+{% ifequal request.LANGUAGE_CODE "fi" %}
+<input type="image" src="/sitemedia/pics/Raportti.jpg" value={% trans "Child_english" %} name="ce"/>
+{% else %}
+<input type="image" src="/sitemedia/pics/child_english.jpg" value={% trans "Child_english" %} name="ce"/>
+{% endifequal %}
+{% ifequal request.LANGUAGE_CODE "fi" %}
+<input type="image" src="/sitemedia/pics/Venglanniksi.jpg" value={% trans "Annual_english" %} name="ae"/>
+{% else %}
+<input type="image" src="/sitemedia/pics/Annual_english.jpg" value={% trans "Annual_english" %} name="ae"/>
+{% endifequal %}
+</p>
+	</form>
+{% endif %}
+{% endblock %}

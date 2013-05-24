@@ -1,0 +1,305 @@
+
+body {
+	background-color: #fff;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+       
+  
+}
+#header {
+	width: 109px;
+	margin-left: 50px;
+	padding: 0px;
+
+}
+.back
+{
+margin-left: 250px;
+       
+  
+}
+#book{  
+
+	background-image:url(/sitemedia/pics/top_bt_bg.gif);
+	position:relative;
+	width: 400px;
+	margin-left:50px;
+	margin-top:0px;
+}
+#content
+{
+	text-align:center;
+	width:800px ;
+	border:"0" ;
+	background-color: #fff;
+	background-image:url(/sitemedia/pics/top_bt_bg.gif);
+	background-image:url(/sitemedia/pics/top_bt_bg.gif);
+}
+
+table {
+    	margin-left: 0px;
+    
+}
+th
+{
+	font-family: "Times New Roman";
+	color:#2059b2; 
+	
+}
+
+td
+{
+	color:#4675bd;
+	font-family:"Times New Roman"; 
+	font-size:13px;  
+}
+
+
+#nav 
+{
+	
+	float:left;
+	width:200px;
+        margin-left:50px;
+	padding:0;
+        text-align:center;
+ 
+}
+
+#nav ul 
+{
+	list-style:none;
+	padding:0;        
+}
+
+#nav li 
+{
+	margin-bottom:0px;
+        background:#fff;
+        margin-left:0px;
+	background:#0166B5;
+ 
+}
+
+#nav li a 
+{
+	font-weight:normal;
+	font-size:12px;
+	height:20px;
+	text-decoration:none;
+	color:#fff;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:0px;
+	background:#e85414;
+        display: block;       
+       
+}
+#nav .active a {
+        font-weight:bold;
+        font-size:15px;
+	color:blue;
+}
+
+#nav li a:hover 
+{
+     	color:skyblue;
+}
+h2
+{
+	color:#2059b2;
+	font-family:serif;
+	font-style:bold;
+
+}
+#more
+{          
+	font-weight:bold;
+	float:right;
+	margin-top:20px;
+	margin-right:100px;
+				 	                           
+}
+
+.right
+{
+	color:#2059b2; 	
+	text-decoration:none;
+	float:right;
+	margin-right:50px; 	
+}
+
+
+
+#centercontent
+{
+	font-family: times new roman; 
+	font-size: 14px; 
+	color:  #2059b2; 
+	text-decoration:none  
+        margin-bottom:20px;
+	width:60%;
+	margin-top:40px;
+	margin-left:350px; 
+	
+
+
+}
+#img1{
+	position:relative;
+	margin-left:874px;
+
+
+}
+.bodytxt {
+	font-family: verdana, arial; 	
+	font-size:14px; 
+	letter-spacing:0px; 
+	color:#000000; 
+	text-align:left; 
+	padding-right: 0px; 
+	padding-left: 0px;
+}
+
+
+
+
+.leftlinks {
+	font-family:arial; 
+	font-weight:bold;
+	font-size:12px; 
+	letter-spacing:0px; 
+	color:#FFFFFF;
+	padding-left:0px; 
+	text-decoration:none;
+}
+
+
+
+#logintxt 
+{
+	font-family: "MS Sans Serif", Verdana, Arial; 
+	font-weight:bold; 
+	font-size: 11px;
+	color: #FF4D00; 
+	width:272px; 
+	margin-top:30px;
+	margin-bottom:50px;
+	position:relative;
+	background-image:url(/sitemedia/pics/kirjautunut.jpg);
+	background-repeat:no-repeat;
+	overflow:hidden;
+ 
+}
+
+#logintxte 
+{
+	font-family: "MS Sans Serif", Verdana, Arial; 
+	font-weight:bold; 
+	font-size: 11px;
+	color: #FF4D00; 
+	width:272px; 
+	margin-top:30px;
+	margin-bottom:50px;
+	position:relative;
+	background-image:url(/sitemedia/pics/login_bg.gif);
+	background-repeat:no-repeat;
+	overflow:hidden;
+ 
+}
+/*#more
+{          
+	font-weight:bold;
+	float:left;
+	margin-left:50px;
+	margin-top:30px;
+	color:#97b0d7; 	
+	text-decoration:none; 			 	                           
+}*/
+p{
+	margin-left:0px;
+
+}
+#newsimage {
+	text-align:center;
+	margin-left:0px;
+	}
+#logintxt2 
+{
+	font-family: "MS Sans Serif", Arial; 
+	font-weight:bold; 
+	font-size: 11px; 
+	color: #FF4D00; 
+	text-decoration:none  
+	width:220px; 
+	text-align:center;
+	margin-top:70px;
+	position:relative;
+	margin-left:10px;
+	margin-bottom:50px;
+}
+
+#menu
+{
+	font-weight:bold;
+	font-size:17px;
+	height:20px;
+	text-decoration:none;
+	color:#fff;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:0px;
+	background:#e85414;
+        display: block;
+        
+       
+}
+
+
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+
+#footer 
+{
+	font-family:verdana, arial; 
+	font-size:12px; 
+	margin-left:190px;
+	width:80%;
+        float:left;
+   	margin-top:15px;
+	color:#022cfc;         
+}
+#footer a, #footer a:link {
+	color:#0c0797;
+	text-decoration:none;
+}
+#footer a:hover {
+	color: #455ede;
+}
+th.header { 
+    background-image: url(/sitemedia/pics/bg.gif);     
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #dad9c7; 
+    margin-left: -1px; 
+} 
+th.headerSortUp { 
+    background-image: url(/sitemedia/pics/asc.gif); 
+    background-color: #3399FF; 
+}
+th.headerSortDown { 
+    background-image: url(/sitemedia/pics/desc.gif); 
+    background-color: #3399FF; 
+}

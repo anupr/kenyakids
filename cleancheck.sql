@@ -1,0 +1,16 @@
+alter table web_checkup drop column ltdiagnosis_eng;
+alter table web_checkup drop column ltdiagnosis_fin;
+alter table web_checkup drop column symptoms_eng;
+alter table web_checkup drop column symptoms_fin;
+alter table web_checkup drop column allergies_eng;
+alter table web_checkup drop column allergies_fin;
+alter table web_checkup drop column remarks_eng;
+alter table web_checkup drop column remarks_fin;
+alter table web_checkup drop column opv;
+alter table web_checkup drop column dpt;
+alter table web_checkup drop column meas;
+alter table web_checkup drop column hepb;
+alter table web_checkup drop column bcg;
+alter table web_checkup drop column polio;
+alter table web_checkup drop column boost1;
+alter table web_checkup drop column boost2;

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load thumbnail %}
+{% block centercontent %}
+
+{% if child_list %}
+    <h1>{% trans "Project: " %} {{child_list.0.area.project }}</h1>
+    <h1>{% trans "Children without a sponsor: " %}</h1>
+    <p>{% trans "Number of Free Children: "%} {{ num }}</p>
+    {% for child in child_list %}
+    <h4>{{child.area.project}} {{ child.area }}: {{ child.name }}: <a href="{% url freechildfull child_id=child.id %}">{{ child.code }}</a></h4>
+    <p>
+    {% if child.picture %}
+       <a href="{{ child.picture.url }}">{% thumbnail child.picture "100x100" as child_thumbnail %}
+	 <img src="{{ child_thumbnail.url }}" width="75" border ="0"/></a>{% endthumbnail %}
+	{% endif %}
+    
+    {% if child.family_picture %}
+       <a href="{{ child.family_picture.url }}">{% thumbnail child.family_picture "100x100" as family_thumbnail %}
+	 <img src="/{{ family_thumbnail.url }}" width="75" border ="0"/></a>{% endthumbnail %}
+	{% endif %}
+    </p>
+    {% endfor %}
+{% else %}
+    <p>{% trans "No free children." %}</p>
+{% endif %}
+
+{% endblock %}

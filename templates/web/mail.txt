@@ -1,0 +1,7 @@
+{% load i18n %}
+{% trans "Dear" %} {{ sponsor.fname }} {{ sponsor.lname }},
+
+{{ msg }}
+
+{% trans "Fida International" %}
+http://www.fida.in

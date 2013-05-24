@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load thumbnail %}
+{% block centercontent %}
+
+<a class="back" href="{% url childsearch child.area.project.id %}">{% trans "Back to index ..." %}</a>
+{% if child %}
+    <h2>{% trans "Name: "%} {{ child.name }}</h2>
+	<p>{% trans "Code" %} {{ child.code }}</p>
+	<div id="newsimage">
+	<table border="0">
+	  <tr>
+	    <td>
+	      <p>
+	      {% if child.picture %}{% thumbnail child.picture "100x100" as child_thumbnail %}
+              <a href="{{ child.picture.url }}"><img src="{{ child_thumbnail.url }}"></a>{% endthumbnail %}
+	      {% endif %}
+	      {% if child.family_picture %}{% thumbnail child.family_picture "100x100" as family_thumbnail %}
+              <a href="{{ child.family_picture.url }}"><img src="{{ family_thumbnail.url }}"></a>{% endthumbnail %}
+	      {% endif %}
+	      </p>
+	    </td>
+	    <TD>
+
+	      <p>{% trans "Area" %}: {{ child.area }}</p>
+	      <p>{% trans "Sex" %}: {{ child.get_sex_display }}</p>
+	      <p>{% trans "Date of Birth" %}: {{ child.dob|date:"d-m-Y" }}</p>
+	      <p>{% trans "Language" %}: {{ child.language }}</p>
+	      <p>{% trans "Religion" %}: {{ child.get_religion_display }}</p>
+	      <p>{% trans "Character" %}: {% for hobby in child.character.all %}{{ hobby }} {% if not forloop.last %}, {% endif %}{% endfor %}</p>
+	      <p>{% trans "School standard" %}: {{ child.schoolstd }}</p>
+	      <p>{% trans "School performance" %}: {{ child.get_schoolperf_display }}</p>
+	      <p>{% trans "Free time" %}: {% for hobby in child.hobbies.all %}{% if forloop.first %}{{ hobby|capfirst }} {% else %} {{ hobby }}{% endif %}{% if not forloop.last %}, {% endif %}{% endfor %}</p>
+	      <p>{% trans "Male guardian type" %}: {{ child.get_maleguardiantype_display }}</p>
+	      <p>{% trans "Male guardians Name" %}: {{ child.fathername }}</p>
+	      <p>{% trans "Male guardians Job" %}: {{ child.fatherjob }}</p>
+	      <p>{% trans "Female guardian type" %}: {{ child.get_femaleguardiantype_display }}</p>
+	      <p>{% trans "Female guardians Name" %}: {{ child.mothername }}</p>
+	      <p>{% trans "Female guardian Job" %}: {{ child.motherjob }}</p>
+	      <p>{% trans "Siblings" %}:{% for sibling in child.sibling_set.all %}{{ sibling }}{% if not forloop.last %}, {% endif %}{% endfor %}</p></p>
+	      <p>{% trans "Remarks" %}:{% autoescape off %} {{ child.remarks }} {% endautoescape %}</p>
+	      
+	      {% if child_sponsorship %}
+	      <h3>{% trans  "Sponsor" %}</h3>
+	      <ul>
+		{% for chld in child_sponsorship %}
+		<LI>{{ chld.sponsor.code }}: {{chld.sponsor.fname}} {{chld.sponsor.lname}}
+		  {% trans "From" %} {{chld.startdate|date:"d-m-Y"}}
+		  {% if chld.enddatedate %}
+		  {% trans "To" %} {{chld.enddatedate|date:"d-m-Y"}}
+		  {% endif %}
+		</LI>
+		{% endfor %}
+	      </ul>
+	      {% else %}
+	      <p>{% trans "Does not have a sponsor" %}</p>
+	      {% endif %}
+	    </TD>
+	  </TR>
+	</table>
+	</div>
+{% else %}
+    <p>{% trans "Item Not Found" %}</p>
+{% endif %}
+
+<a class="back" href="{% url childsearch child.area.project.id %}">{% trans "Back to index ..." %}</a></p>
+
+
+{% endblock %}

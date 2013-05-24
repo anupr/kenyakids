@@ -1,0 +1,13 @@
+{% load thumbnail %}
+{% ifequal size 300 %}
+<img src = "{{ p.get_photo_url|thumbnail:"width=300" }}" width="300"/>
+{% endifequal %}
+{% ifequal size 600 %}
+<img src = "{{ p.get_photo_url|thumbnail:"width=600" }}" width="600"/>
+{% endifequal %}
+{% ifequal size 450 %}
+<img src = "{{ p.get_photo_url|thumbnail:"width=450" }}" width="450"/>
+{% endifequal %}
+{% ifequal size 0 %}
+<img src = "{{ p.get_photo_url }}" />
+{% endifequal %}

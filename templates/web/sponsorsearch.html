@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block centercontent %}
+<h1>{% trans "Choose sponsors in: " %}{{ project }}</h1>
+{% if search_form %}
+<form method="POST" action=".">{% csrf_token %}
+  <p>{{ search_form.sstr.label }} {{ search_form.sstr }} </p>
+  <p>
+    <input type="submit" value="{% trans "Search" %}" name="search"/>
+  </p>
+  <p>
+    <a href="#" onclick="unselCB();">{% trans "Unselect All" %}</a> | <a href="#" onclick="selCB();">{% trans "Select All" %}</a>
+  </p>
+  <ul>
+    {% for sponsor in search_form.sponsors.field.choices %}
+    <li>
+      <input type="checkbox" checked="true" value="{{ sponsor.0 }}" name="sponsors"> <a href="{% url sponsorfull sponsor_id=sponsor.0 projectid=projectid %}">{{ sponsor.1 }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <p>
+  <input type="hidden" name="sponsors_id" value="" />
+    <input type="submit" value="{% trans "Print" %}" name="print" /> 
+  </p>
+</form>
+{% endif %}
+
+<script type="text/javascript">
+  function unselCB() {
+    $("input[type=checkbox]").attr("checked", false);
+  }
+  function selCB() {
+    $("input[type=checkbox]").attr("checked", true);
+  }
+</script>
+
+{% endblock %}
